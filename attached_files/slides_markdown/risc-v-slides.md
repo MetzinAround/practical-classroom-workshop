@@ -13,6 +13,8 @@ institute:
 
 ![Risc-V Logo](assets/images/logo.png)
 
+$E = mc^2$
+
 RISC-V is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. Unlike most other ISA designs, the RISC-V ISA is provided under open source licenses that do not require fees to use.
 RISC-V is:
 

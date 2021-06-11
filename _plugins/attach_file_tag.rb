@@ -1,4 +1,8 @@
 ATTACHED_FILES_DIRECTORY = "/attached_files"
+MD_EXTENSION = ".md"
+MARKDOWN_EXTENSION = ".markdown"
+PDF_EXTENSION = ".pdf"
+SLIDES_PDF_DIRECTORY = "slides_pdf"
 
 module Jekyll
     class AttachFileTag < Liquid::Tag
@@ -25,6 +29,12 @@ module Jekyll
                     end
                 end
             rescue
+            end
+
+            if (file_name.include? MD_EXTENSION) || (file_name.include? MARKDOWN_EXTENSION)
+                file_name_no_extension = file_name.slice(0..(file_name.index('.') - 1))
+                file_name_no_folder = file_name_no_extension.partition('/').last
+                file_name =  SLIDES_PDF_DIRECTORY + '/' + file_name_no_folder + PDF_EXTENSION
             end
 
             full_path = File.join baseurl, ATTACHED_FILES_DIRECTORY, '/', file_name

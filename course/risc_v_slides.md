@@ -5,5 +5,8 @@ nav_order: 5
 
 # Risc V Slides
 
-{% attach_file {"file_name": "slides/risc-v-slides.pdf", "title":"Slides"} %}
-[Slides]({{ site.url }}/{{ site.baseurl }}/attached_files/slides/risc-v-slides.pdf)
+Latex test $$E = mc^2$$
+
+{% attach_file {"file_name": "slides_markdown/risc-v-slides.md", "title":"Slides"} %}
+
+{% attach_file {"file_name": "pdf/practica3.pdf", "title":"practica3"} %}

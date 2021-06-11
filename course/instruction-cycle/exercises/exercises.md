@@ -15,4 +15,4 @@ nav_order: 2
 
 ### Computer Architecture Exercises
 
-[Exercises]({{ site.url }}/{{ site.baseurl }}/assets/pdf/practica3.pdf).
+[Exercises]({{ site.url }}{{ site.baseurl }}/assets/pdf/practica3.pdf).

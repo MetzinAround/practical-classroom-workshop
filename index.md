@@ -1,10 +1,10 @@
 ---
 title: Home
 nav_order: 1
-description: "A PoC for Courseware as Code 2021 GsoC proposal, using UBA Computer Architecture and Organization as an example."
+description: "The main page of the Courseware as Code documentation."
 permalink: /
 ---
 
-# Computer Organization and Architecture
+# Courseware as Code
 
-Welcome to the Computer Organization and Architecture course!
+Welcome to Courseware as Code!

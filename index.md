@@ -8,3 +8,8 @@ permalink: /
 # Courseware as Code
 
 Welcome to Courseware as Code!
+
+- adding images
+- order of documents
+- attached files + slides
+- how to MR for students

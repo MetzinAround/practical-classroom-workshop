@@ -50,12 +50,12 @@ If you are already know how to use `git`, feel free to modify these fields, comm
 If you are not yet familiar with using `git` through your Command-Line, no problem!
 Click on the `_config.yml` file, and then you can click on **Edit** to modify it in your own browser.
 
-![title-modify-tutorial](https://gfycat.com/weirdentirechickadee)
+<iframe src='https://gfycat.com/ifr/WeirdEntireChickadee' frameborder='0' scrolling='no' allowfullscreen width='640' height='285'></iframe>
 
 After modifying the `_config.yml`, a Gitlab CI/CD job will launch.
 After that's done running (you'll know by the green check next to your latest commit), your site will be ready to go!
 
-![green-mark-deploy](https://imgur.com/r7DiXu2)
+![green-mark-deploy](https://i.imgur.com/r7DiXu2.png)
 
 The URL of your site will contain your user/group that owns your repository and the name of the repository.
 For example if you created the repository with the Gitlab user `Diego14` and your repository is called `intro-to-music-theory`, the resulting URL will be: `https://Diego14.gitlab.io/intro-to-music-theory`

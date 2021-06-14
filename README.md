@@ -1,13 +1,14 @@
 # Courseware as Code site template
 
-This repository contains a template for **Courseware as Code** generating a static website using Jekyll that can be deployed to Gitlab Pages for free.
+This repository contains a template for **Courseware as Code**, which will allow you to easily generate a static website that can be deployed to Gitlab Pages for free.
 Its main objective is to make hosting educational content as easy as possible.
 
-This project started out as a fork of the amazing Jekyll template (just-the-docs)[https://pmarsceill.github.io/just-the-docs/]. Courseware as Code wouldn't be possible without it.
+This project started out as a fork of the amazing Jekyll template [just-the-docs](https://pmarsceill.github.io/just-the-docs/).
+Courseware as Code wouldn't be possible without it.
 
 [See it in action!](https://courseware-as-code.gitlab.io/courseware-template/)
 
---TODO: add table of contents with enriched gitlab
+[[_TOC_]]
 
 ## Hosting your own Courseware as Code
 
@@ -37,12 +38,27 @@ This will create your own personal version of this repository, that you'll be ab
 ### Change the necessary configurations
 
 Once you have your own repository with the code for this template, you'll have to modify the `_config.yml`.
-These are the fields that are absolutely necessary to modify:
+After modifying the `title` and `descriptions` fields, you'll be ready to go!
 
+```yaml
+title: Courseware as Code # The name you want your course to have
+description: A Jekyll theme for education # A short description of your course
+```
 
+If you are already know how to use `git`, feel free to modify these fields, commit and push them.
 
-- If you are a user
-- If you are a group
+If you are not yet familiar with using `git` through your Command-Line, no problem!
+Click on the `_config.yml` file, and then you can click on **Edit** to modify it in your own browser.
+
+![title-modify-tutorial](https://gfycat.com/weirdentirechickadee)
+
+After modifying the `_config.yml`, a Gitlab CI/CD job will launch.
+After that's done running (you'll know by the green check next to your latest commit), your site will be ready to go!
+
+![green-mark-deploy](https://imgur.com/r7DiXu2)
+
+The URL of your site will contain your user/group that owns your repository and the name of the repository.
+For example if you created the repository with the Gitlab user `Diego14` and your repository is called `intro-to-music-theory`, the resulting URL will be: `https://Diego14.gitlab.io/intro-to-music-theory`
 
 ## Adding your own content
 

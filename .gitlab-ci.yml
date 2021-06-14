@@ -10,6 +10,7 @@ before_script:
   - apt-get -y install pandoc
   - apt-get -y install texlive-latex-base
   - apt-get -y install texlive-latex-extra
+  - apt-get -y install gettext-base
 
 test:
   stage: test
@@ -24,9 +25,13 @@ test:
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+  - export CI_PROJECT_NAME CI_PROJECT_NAMESPACE CI_PROJECT_URL
+  - envsubst < _config.yml > _final_config.yml
+  - cat _final_config.yml
+  - bundle exec jekyll build -d public --config _final_config.yml
   artifacts:
     paths:
     - public
   only:
   - main
+  - automatic-config

@@ -1,13 +1,12 @@
 title: Courseware as Code
 description: A Jekyll theme for education
-baseurl: "/courseware-template"
-main_page_url: "https://courseware-as-code.gitlab.io"
-url: "https://courseware-as-code.gitlab.io"
+baseurl: "/$CI_PROJECT_NAME"
+url: "https://$CI_PROJECT_NAMESPACE.gitlab.io"
 
 # Footer "Edit this page on Gitlab" link text
 gl_edit_link: true # show or hide edit this page link
 gl_edit_link_text: "Contribute to this page using Gitlab"
-gl_edit_repository: "https://gitlab.com/courseware-as-code/courseware-template" # the gitlab URL for your repo
+gl_edit_repository: "$CI_PROJECT_URL" # the gitlab URL for your repo
 gl_edit_branch: "main" # the branch that your docs is served from
 gl_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 

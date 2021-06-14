@@ -50,7 +50,7 @@ If you are already know how to use `git`, feel free to modify these fields, comm
 If you are not yet familiar with using `git` through your Command-Line, no problem!
 Click on the `_config.yml` file, and then you can click on **Edit** to modify it in your own browser.
 
-<div style='position:relative; padding-bottom:calc(37.60% + 44px)'><iframe src='https://gfycat.com/ifr/WeirdEntireChickadee' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+![gify-test](https://i.imgur.com/BbSxkPE.mp4)
 
 After modifying the `_config.yml`, a Gitlab CI/CD job will launch.
 After that's done running (you'll know by the green check next to your latest commit), your site will be ready to go!

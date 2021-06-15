@@ -19,7 +19,7 @@ To start hosting this template on [Gitlab Pages](https://docs.gitlab.com/ee/user
 
 After these two steps, you'll have access to your own Courseware website!
 
-### Creating your own repository
+### 1) Creating your own repository
 
 There two ways to create your own repository with the Courseware template.
 
@@ -35,7 +35,7 @@ Coming soon!
 [Click here](https://gitlab.com/courseware-as-code/courseware-template/-/forks/new) to fork this repository!
 This will create your own personal version of this repository, that you'll be able to modify and add content freely.
 
-### Change the necessary configurations
+### 2) Change the necessary configurations
 
 Once you have your own repository with the code for this template, you'll have to modify the `_config.yml`.
 After modifying the `title` and `descriptions` fields, you'll be ready to go!
@@ -62,7 +62,7 @@ For example if you created the repository with the Gitlab user `Diego14` and you
 
 ## Adding your own content
 
-[View the documentation](https://courseware-as-code.gitlab.io/courseware-template/) for usage information.
+Now that you've finished with the project configuration, follow our [step-by-step tutorial](https://courseware-as-code.gitlab.io/courseware-template/) for adding content tou your own course!
 
 ## Proposing changes
 

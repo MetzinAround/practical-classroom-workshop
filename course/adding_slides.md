@@ -65,8 +65,6 @@ title:
 - Git Workflow
 author:
 - Évariste Galois
-logo:
-- attached_files/images/logo.jpg
 insitute:
 - École normale supérieure
 theme:

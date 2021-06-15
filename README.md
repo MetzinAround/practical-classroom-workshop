@@ -35,6 +35,8 @@ Coming soon!
 [Click here](https://gitlab.com/courseware-as-code/courseware-template/-/forks/new) to fork this repository!
 This will create your own personal version of this repository, that you'll be able to modify and add content freely.
 
+Remember that you can change the name of your project by clicking on **Settings**!
+
 ### 2) Change the necessary configurations
 
 Once you have your own repository with the code for this template, you'll have to modify the `_config.yml`.

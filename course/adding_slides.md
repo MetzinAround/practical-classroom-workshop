@@ -1,6 +1,7 @@
 ---
 title: Adding slides
 nav_order: 5
+parent: How to use
 ---
 
 # Adding slides
@@ -71,3 +72,4 @@ insitute:
 theme:
 - Copenhagen
 ---
+```

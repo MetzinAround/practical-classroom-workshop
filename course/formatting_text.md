@@ -1,6 +1,7 @@
 ---
 title: Formatting your text
-nav_order: 3
+nav_order: 2
+parent: How to use
 ---
 
 # Formatting your text
@@ -41,7 +42,7 @@ Not bad, but not great either.
 ## Adding titles and sub-titles
 
 Let's start by adding some useful titles and sub-titles to this page.
-We do that in `markdown` by using the `#` symbol.
+We can do that in `markdown` using the `#` symbol.
 Sub-titles have two or more `#` symbols.
 
 ```yaml
@@ -87,14 +88,19 @@ That looks much better!
 You can also have **ordered** lists and **unordered** lists.
 
 Unordered:
+
 `-` First item
+
 `-` Second item
+
 `-` Third item
 
 Ordered:
 
 `1.` First item
+
 `2.` Second item
+
 `3.` Third item
 
 Let's format our text to make it look better:

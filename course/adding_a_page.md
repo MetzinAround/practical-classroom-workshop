@@ -1,14 +1,15 @@
 ---
 title: Adding a course page
-nav_order: 2
+nav_order: 1
+parent: How to use
 ---
 
 # Adding a course page
 
 Let's start by adding new content to your site.
 We can do that by creating `markdown` files in the `course` directory.
-`markdown` files are pretty similar to plain-text files, but have lots of simple formatting capabilities.
-You'll recognize `markdown` files by their `.md` or `.markdown`.
+`markdown` files are pretty similar to plain-text files, but have lots of simple yet powerful formatting capabilities.
+You'll recognize `markdown` files by their `.md` or `.markdown` extension.
 
 All `markdown` files created in the `course` directory will be picked up by the site if they have the following header at the top:
 
@@ -21,7 +22,7 @@ nav_order: Order in which you want this page to show up in your page
 
 The `title` will be the name for your page that shows up in your Courseware website, while `nav_order` is the order in which the page will appear in your course (more on this later!).
 
-Let's try this out by creating a `markdown` file of your liking in the `course` directory!
+Let's try this out by creating a `markdown` file in the `course` directory!
 
 Its contents should look something like this:
 

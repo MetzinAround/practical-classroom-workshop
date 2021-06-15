@@ -1,6 +1,7 @@
 ---
 title: Adding content
 nav_order: 4
+parent: How to use
 ---
 
 # Adding content

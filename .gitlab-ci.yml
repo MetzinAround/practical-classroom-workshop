@@ -34,4 +34,3 @@ pages:
     - public
   only:
   - main
-  - automatic-config

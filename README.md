@@ -6,7 +6,7 @@ Its main objective is to make hosting educational content as easy as possible.
 This project started out as a fork of the amazing Jekyll template [just-the-docs](https://pmarsceill.github.io/just-the-docs/).
 Courseware as Code wouldn't be possible without it.
 
-[See it in action!](https://courseware-as-code.gitlab.io/courseware-template/)
+[See it in action!](https://courseware-as-code.gitlab.io/courseware-tutorial/)
 
 [[_TOC_]]
 
@@ -67,7 +67,7 @@ For example if you created the repository with the Gitlab user `Diego14` and you
 
 ## Adding your own content
 
-Now that you've finished with the project configuration, follow our [step-by-step tutorial](https://courseware-as-code.gitlab.io/courseware-template/) for adding content to your own course!
+Now that you've finished with the project configuration, follow our [step-by-step tutorial](https://courseware-as-code.gitlab.io/courseware-tutorial/) for adding content to your own course!
 
 ## Proposing changes and fixes
 
@@ -131,4 +131,3 @@ Or else it won't reflect in your site when you run `bundle exec jekyll serve --i
 ### Using Docker
 
 Coming soon!
-

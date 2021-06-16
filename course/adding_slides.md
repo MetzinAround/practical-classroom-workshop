@@ -71,3 +71,5 @@ theme:
 - Copenhagen
 ---
 ```
+
+You can check the resulting slides [here](https://alejandro-rusi.gitlab.io/courseware-git-example/attached_files/slides_pdf/git_slides.pdf)!

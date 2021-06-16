@@ -59,18 +59,74 @@ After that's done running (you'll know by the green check next to your latest co
 
 ![green-mark-deploy](https://i.imgur.com/r7DiXu2.png)
 
+The changes you make to your course will reflect on the website once the pipeline has finished running.
+If you want to speed up your development process, we recommend trying out our [Local Development](#local-development) options.
+
 The URL of your site will contain your user/group that owns your repository and the name of the repository.
 For example if you created the repository with the Gitlab user `Diego14` and your repository is called `intro-to-music-theory`, the resulting URL will be: `https://Diego14.gitlab.io/intro-to-music-theory`
 
 ## Adding your own content
 
-Now that you've finished with the project configuration, follow our [step-by-step tutorial](https://courseware-as-code.gitlab.io/courseware-template/) for adding content tou your own course!
+Now that you've finished with the project configuration, follow our [step-by-step tutorial](https://courseware-as-code.gitlab.io/courseware-template/) for adding content to your own course!
 
-## Proposing changes
+## Proposing changes and fixes
+
+Thanks to using `git` for Version Control anyone can propose changes and fixes in Courseware as Code!
+Both students and educators are encouraged to do this.
+
+The process is quite simple: every page of the course has a **"Contribute to this page using Gitlab"** link at the bottom.
+
+![contribute-with-gitlab-link](https://i.imgur.com/2lGG6uL.png)
+
+Click on it, and it'll take you to the `markdown` file that represents that page.
+Don't be afraid to click on the **Edit** button!
+Your changes won't be automatically applied to the course, you'll have to send a **Merge Request** first.
+Creating a **Merge Request** is not as complicated as it sounds, and you won't even need to use your Command-Line to do this.
+Click on the **Fork** button, and that will create your own personal copy of the course.
+
+![create-fork](https://i.imgur.com/FRsJmve.png)
+
+Once you make your changes, click on **Commit**.
+Make sure to add a meaningful **Commit Message** describing your changes!
+
+![create-commit](https://i.imgur.com/pOZGOo2.png)
+
+Now it's time to send out the **Merge Request** to the owners of the course.
+Once you click on **Create merge request**, they'll receive your *proposed* changes and will be able to review them.
+We're sure they'll be thankful for collaborating with their course!
+
+![send-merge-request](https://i.imgur.com/5LujB5Q.png)
 
 ## Local development
 
-### Using Ruby + Bundle
+If you have access to a local development environment, we recommend setting up the course locally.
+This will help you check how your changes will reflect on the site inmediatly (instead of waiting for the **CI/CD** pipeline that might take a few minutes).
+
+### Using Ruby + Bundler
+
+It's likely that your system already has Ruby installed.
+
+You can make sure you have Ruby installed by running the following command in your Command-Line:
+
+```bash
+ruby -v
+```
+
+This should output some information on the installed Ruby version.
+
+If it doesn't, [follow the official Ruby installation guide](https://www.ruby-lang.org/en/documentation/installation/) or install `rvm` (the Ruby Version Manager) that will let you easily switch between Ruby versions by following their [installation steps](https://rvm.io).
+
+After that you'll need to install the `bundler` gem:
+```bash
+gem install bundler
+bundle install
+```
+
+Now you'll be able to run `bundle exec jekyll build` in your course directory, and serve the course locally with `bundle exec jekyll serve --incremental`.
+Now you'll be able to open your course in the http://127.0.0.1:4000/$CI_PROJECT_NAME address.
+
+Make sure to run `bundle exec jekyll build` each time you add a new page!
+Or else it won't reflect in your site when you run `bundle exec jekyll serve --incremental`.
 
 ### Using Docker
 

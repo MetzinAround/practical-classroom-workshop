@@ -12,7 +12,7 @@ gl_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/", "attached_files/slides_markdown"
+, "docs/tests/", "attached_files/slides_markdown", "vendor"
 ]
 
 markdown: kramdown

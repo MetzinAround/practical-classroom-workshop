@@ -1,4 +1,4 @@
-image: ruby:2.7.2
+image: arusir/courseware-template:0.1
 
 variables:
   JEKYLL_ENV: production
@@ -6,11 +6,6 @@ variables:
 
 before_script:
   - bundle install
-  - apt-get update
-  - apt-get -y install pandoc
-  - apt-get -y install texlive-latex-base
-  - apt-get -y install texlive-latex-extra
-  - apt-get -y install gettext-base
 
 test:
   stage: test
@@ -34,3 +29,4 @@ pages:
     - public
   only:
   - main
+  - original-docker-image

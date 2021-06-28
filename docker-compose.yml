@@ -1,7 +1,7 @@
 version: '3'
 services:
   jekyll:
-      build: .
+      image: arusir/courseware-template:0.1
       environment:
         - JEKYLL_ENV=development
       command: bash -c "

@@ -1,9 +1,15 @@
-title: Courseware as Code
-description: A Jekyll theme for education
+title: Courseware as Code # The name you want your course to have
+description: A Jekyll theme for education # A short description of your course
+
+###
+# Deployment and template variables below
+# No need to modify them in most cases
+###
 baseurl: "/$CI_PROJECT_NAME"
 url: "https://$CI_PROJECT_NAMESPACE.gitlab.io"
 
 # Footer "Edit this page on Gitlab" link text
+gl_edit_repository: "https://gitlab.com/courseware-as-code/courseware-template" # the gitlab URL for your repo
 gl_edit_link: true # show or hide edit this page link
 gl_edit_link_text: "Contribute to this page using Gitlab"
 gl_edit_repository: "$CI_PROJECT_URL" # the gitlab URL for your repo

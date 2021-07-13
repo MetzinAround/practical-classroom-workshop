@@ -130,4 +130,7 @@ Or else it won't reflect in your site when you run `bundle exec jekyll serve --i
 
 ### Using Docker
 
-Coming soon!
+To spin up your site locally using **Docker**, you'll need to [install it](https://docs.docker.com/get-docker/).
+You'll also need to have `docker-compose` installed (if you don't have it already, install it for your respective Operating System by following [these steps](https://docs.docker.com/compose/install/)).
+
+Once you have those two installed, run `docker-compose up` in your project directory.

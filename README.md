@@ -35,7 +35,13 @@ Coming soon!
 [Click here](https://gitlab.com/courseware-as-code/courseware-template/-/forks/new) to fork this repository!
 This will create your own personal version of this repository, that you'll be able to modify and add content freely.
 
-Remember that you can change the name of your project by clicking on **Settings**!
+1. **IMPORTANT:** Remove the fork relationship.
+Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relationship"** button.
+1. Enable Shared Runners.
+Go to **Settings (⚙)** > **Pipelines** and click the **"Enable shared Runners"** button.
+1. Rename the repository to match the name you want for your site.
+1. Edit your website through GitLab or clone the repository and push your changes.
+
 
 ### 2) Change the necessary configurations
 

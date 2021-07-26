@@ -140,3 +140,16 @@ To spin up your site locally using **Docker**, you'll need to [install it](https
 You'll also need to have `docker-compose` installed (if you don't have it already, install it for your respective Operating System by following [these steps](https://docs.docker.com/compose/install/)).
 
 Once you have those two installed, run `docker-compose up` in your project directory.
+
+### Using GitPod
+
+**GitPod** will create a local development environment right in your browser!
+Add `gitpod.io/#` as a prefix to your project's URL to launch **GitPod**.
+
+We recommend using the `docker-compose up` command to start up launch the website.
+After running `docker-compose up` you'll get your URL.
+All changes you make to your files will be reflected in that URL.
+
+![](https://i.imgur.com/lyr3rJE.gif)
+
+Remember that you'll have to `commit` and `push` your changes afterwards, here is a [video guide](https://www.youtube.com/watch?v=5xXMk468yCA) on how to do that.

@@ -22,9 +22,11 @@ The DevOps process starts with a problem and moves through each stage starting w
 ![stages](attached_files/images/stages.png)
 The tools and functions available in each stage.
 
-| Stage| Function | Definition | CwaC Usage |
+### DevOps Stages and Tools used in Courseware as Code
+| Stage| Tools and Functions | CwaC Usage | CwaC Tools |
 |------|----------|------------|------------|
-| Manage | Subgroups | cccc |  ccccc|
+| Plan | Issues, Issue Tracking, Time Tracking, Boards, Epics | Issues are assignments. Issues can have due-dates, milestones, and can be tracked and organized into Epics. Labels are used further categorize issues.| Issues can be automatically assigned to each student in your Group |
+
 
 
 

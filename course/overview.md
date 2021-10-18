@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Overview of Courseware as Code
 nav_order: 1
 parent: Introduction
 ---
@@ -10,10 +10,10 @@ parent: Introduction
 
 **DevOps** is a set of practices and tools that combines software development and information technology operations. DevOps is also a cultural transformation; it improves collaboration between developers and operations team members by implementing a mindset that promotes feedback loops, continuous improvement, loosely coupled architecture teams.  
 
-![devops_process](attached_files/images/devops_process.png)
+![devops_process](assets/images/devops_process.png)
 The DevOps process starts with a problem and moves through each stage starting with plan and moving through in a continuous cycle to monitor and then back to plan. The 7 stages are described in [detail here](https://about.gitlab.com/stages-devops-lifecycle/).
 
-![stages](attached_files/images/stages.png)
+![stages](assets/images/stages.png)
 The tools and functions available in each stage.
 
 ### DevOps Stages and Tools used in Courseware as Code
@@ -24,8 +24,6 @@ Courseware as Code is simular to DevOps in that users can use only the tools the
 |------|---------------------|------------|------------|
 | Plan | [Issues](https://docs.gitlab.com/ee/user/project/issues/#issues) | Issues store course assignments or tasks.| CwaC tools can make a copy of every issue in a course project and assign it to all course participants. Issues can have due dates, assignees, and milestones. They can also be organized with labels.|
 | Create |[Repository](https://docs.gitlab.com/ee/user/project/repository/#repository) | A repository is where you store your code and make changes to it. Your changes are tracked with version control. Each project contains a repository | CwaC tools can make a separate project for each student in your class. The project contains a private repository where on the enrolled student and instructor can access the code. The repository stores code as submissions to issues (assignments). Git controls the versioning of the code.|
-
-
 
 
 

@@ -34,7 +34,7 @@ The exact origin of CwaC in action is unknown to us. We do know that many open-s
 
 The U.S. Army Cyberschool, a GitLab customer, officially coined the term Courseware as Code in their publication `Courseware as code setting a new bar for transparency and collaboration` published in the IEEE Frontiers in Education Conference in 2018(footnote 1) and subsequent publication in `Courseware as Code: Instituting Agile Courseware Collaboration` in IEEE Security & Privacy in 2020 (footnote2). According the authors "Using a foundation of DevOps and Continuous Integration/Continuous Delivery (CI/CD) philosophies, our idea for Courseware as Code extends the idea of ”Everything as Code” to educational content. Leveraging applicable aspects of the software development lifecycle to courseware facilitates discussions of suggested changes amongst faculty, provides transparency in updates, enables custom workflows based on the complexity of course content, and allows faculty, students, and workforce members to identify issues and contribute content."
 
-In the CwaC model, traditional documents such as slide presentations, word documents, spreadsheets, and other files, with markup language formats. CI pipelines are used to create PDFs, html5, hese markdown files are
+In the CwaC model, traditional documents such as slide presentations, word documents, spreadsheets, and other files, with markup language formats. CI pipelines are used to create PDFs, html5, these markdown files are
 
 
 
@@ -42,5 +42,5 @@ In the CwaC model, traditional documents such as slide presentations, word docum
 
 
 # Footnotes
-1.
+1.Rodriguez, Julianna, et al. "Courseware as code setting a new bar for transparency and collaboration." 2018 IEEE Frontiers in Education Conference (FIE). IEEE, 2018.
 2. Rodriguez, Julianna M., et al. "Courseware as Code: Instituting Agile Courseware Collaboration." IEEE Security & Privacy 18.6 (2020): 59-62.

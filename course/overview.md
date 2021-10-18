@@ -1,5 +1,5 @@
 ---
-title: Introduction to Courseware as Code
+title: Overview
 nav_order: 1
 parent: Introduction
 ---

@@ -25,7 +25,7 @@ The tools and functions available in each stage.
 ### DevOps Stages and Tools used in Courseware as Code
 | Stage| Tools and Functions | CwaC Usage | CwaC Tools |
 |------|---------------------|------------|------------|
-| Plan | Issues, Issue Tracking, Time Tracking, Boards, Epics | Issues are assignments. Issues can have due-dates, milestones, and can be tracked and organized into Epics. Labels are used further categorize issues. | Issues can be automatically assigned to each student in your Group |
+| Plan| Issues, Issue Tracking, Time Tracking, Boards, Epics| Issues are assignments. Issues can have due-dates, milestones, and can be tracked and organized into Epics. Labels are used further categorize issues.|Issues can be automatically assigned to each student in your Group |
 
 
 
@@ -43,5 +43,5 @@ In the CwaC model, traditional documents such as slide presentations, word docum
 
 
 # Footnotes
-1.Rodriguez, Julianna, et al. "Courseware as code setting a new bar for transparency and collaboration." 2018 IEEE Frontiers in Education Conference (FIE). IEEE, 2018.
+1. Rodriguez, Julianna, et al. "Courseware as code setting a new bar for transparency and collaboration." 2018 IEEE Frontiers in Education Conference (FIE). IEEE, 2018.
 2. Rodriguez, Julianna M., et al. "Courseware as Code: Instituting Agile Courseware Collaboration." IEEE Security & Privacy 18.6 (2020): 59-62.

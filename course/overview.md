@@ -10,10 +10,10 @@ parent: Introduction
 
 **DevOps** is a set of practices and tools that combines software development and information technology operations. DevOps is also a cultural transformation; it improves collaboration between developers and operations team members by implementing a mindset that promotes feedback loops, continuous improvement, loosely coupled architecture teams.  
 
-![devops_process](assets/images/devops_process.png)
+![devops_process](attached_files/images/devops_process.png)
 The DevOps process starts with a problem and moves through each stage starting with plan and moving through in a continuous cycle to monitor and then back to plan. The 7 stages are described in [detail here](https://about.gitlab.com/stages-devops-lifecycle/).
 
-![stages](assets/images/stages.png)
+![stages](attached_files/images/stages.png)
 The tools and functions available in each stage.
 
 ### DevOps Stages and Tools used in Courseware as Code

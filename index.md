@@ -12,7 +12,7 @@ Welcome to the GitLab Courseware as Code Workshop.
 
 ## Introduction to Courseware as Code and DevOps
 
-**Courseware as Code** (CwaC) is a revolutionary approach to designing, creating, and maintaining course content and all related assets based on a foundation of DevOps and CI/CD philosophies. CwaC extends the process, tools, and culture of DevOps designing, creating, and maintaining education content and assets of all types.
+**Courseware as Code** (CwaC) is a revolutionary approach to designing, creating, and maintaining course content and all related assets based on a foundation of DevOps and continuous integration (CI) and continuous development (CD) philosophies. CwaC extends the process, tools, and culture of DevOps designing, creating, and maintaining education content and assets of all types.
 
 **DevOps** is a set of practices and tools that combines software development and information technology operations. DevOps is also a cultural transformation; it improves collaboration between developers and operations team members by implementing a mindset that promotes feedback loops, continuous improvement, loosely coupled architecture teams.  
 
@@ -26,7 +26,6 @@ The tools and functions available in each stage.
 | Stage| Tools and Functions | CwaC Usage | CwaC Tools |
 |------|----------|------------|------------|
 | Plan | Issues, Issue Tracking, Time Tracking, Boards, Epics | Issues are assignments. Issues can have due-dates, milestones, and can be tracked and organized into Epics. Labels are used further categorize issues.| Issues can be automatically assigned to each student in your Group |
-
 
 
 

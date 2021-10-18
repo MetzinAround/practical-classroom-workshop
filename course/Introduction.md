@@ -24,7 +24,8 @@ Courseware as Code is simular to DevOps in that users can use only the tools the
 | Stage| Tools and Functions | CwaC Usage | CwaC Tools |
 |------|---------------------|------------|------------|
 | Plan | [Issues](https://docs.gitlab.com/ee/user/project/issues/#issues) | Issues store course assignments or tasks.| CwaC tools can make a copy of every issue in a course project and assign it to all course participants. Issues can have due dates, assignees, and milestones. They can also be organized with labels.|
-| Create |[Repository](https://docs.gitlab.com/ee/user/project/repository/#repository) | A repository is where you store your code and make changes to it. Your changes are tracked with version control. Each project contains a repository | CwaC tools can make a separate project for each student in your class. The project contains a private repository where on the enrolled student and instructor can access the code. The repository stores code as submissions to issues (assignments). |
+| Create |[Repository](https://docs.gitlab.com/ee/user/project/repository/#repository) | A repository is where you store your code and make changes to it. Your changes are tracked with version control. Each project contains a repository | CwaC tools can make a separate project for each student in your class. The project contains a private repository where on the enrolled student and instructor can access the code. The repository stores code as submissions to issues (assignments). Git controls the versioning of the code.|
+
 
 
 

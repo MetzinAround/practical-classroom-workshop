@@ -2,7 +2,6 @@
 title: Introduction to Courseware as Code
 nav_order: 2
 description: "Introduction to Courseware as Code"
-permalink: /
 ---
 
 ## Introduction to Courseware as Code

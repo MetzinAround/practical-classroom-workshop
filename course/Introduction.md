@@ -1,7 +1,6 @@
 ---
 title: Introduction to Courseware as Code
 nav_order: 2
-description: "Introduction to Courseware as Code"
 ---
 
 ## Introduction to Courseware as Code

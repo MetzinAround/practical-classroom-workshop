@@ -1,5 +1,5 @@
 ---
-title: Clone the Template
+title: Clone the Courseware as Code Template
 nav_order: 1
-parent: Set UP
+parent: Set Up Courseware as Code 
 ---

@@ -4,7 +4,7 @@ nav_order: 1
 parent: Introduction
 ---
 
-## Introduction to Courseware as Code
+# Introduction to Courseware as Code
 
 **Courseware as Code** (CwaC) is a revolutionary approach to designing, creating, and maintaining course content and all related assets based on a foundation of DevOps and continuous integration (CI) and continuous development (CD) philosophies. CwaC extends the process, tools, and culture of DevOps designing, creating, and maintaining education content and assets of all types.
 
@@ -29,13 +29,13 @@ Courseware as Code is similar to DevOps in that users can use only the tools the
 
 
 
-## Courseware as Code Origins
+# Courseware as Code Origins
 
-### U.S. Army Cyberschool
+## U.S. Army Cyberschool
 
 The exact origin of CwaC in action is unknown to us. We do know that many open-source projects and open-core companies have used this approach to maintain their documentation and handbook type content for many years.
 
-The U.S. Army Cyberschool, a GitLab customer, officially coined the term Courseware as Code in their publication `Courseware as code setting a new bar for transparency and collaboration` published in the IEEE Frontiers in Education Conference in 2018(footnote 1) and subsequent publication in `Courseware as Code: Instituting Agile Courseware Collaboration` in IEEE Security & Privacy in 2020 (footnote2). According the authors....
+The U.S. Army Cyberschool, a GitLab customer, officially coined the term Courseware as Code in their publication `Courseware as code setting a new bar for transparency and collaboration` published in the IEEE Frontiers in Education Conference in 2018^1 and subsequent publication in `Courseware as Code: Instituting Agile Courseware Collaboration` in IEEE Security & Privacy in 2020^2. According the authors....
 
 >Using a foundation of DevOps and Continuous Integration/Continuous Delivery (CI/CD) philosophies, our idea for Courseware as Code extends the idea of ”Everything as Code” to educational content. Leveraging applicable aspects of the software development lifecycle to courseware facilitates discussions of suggested changes amongst faculty, provides transparency in updates, enables custom workflows based on the complexity of course content, and allows faculty, students, and workforce members to identify issues and contribute content.
 
@@ -45,17 +45,16 @@ In the CwaC model, traditional documents such as slide presentations, word docum
 
 Read more about the Army's Cyberschool's Courseware as Code implementation in this GitLab Case Study: [How the U.S. Army Cyberschool created Courseware as Code with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/) and related [GitLab Commit 2020 Presentation](https://www.youtube.com/watch?v=L4zf_QIr4jQ).
 
-### Google Summer of Code 2021
+## Google Summer of Code 2021
 
 In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern for developing a [Courseware as Code template](https://summerofcode.withgoogle.com/archive/2021/projects/4787041501446144/) Alejandro Rusi, a Masters student in Computer Science Buenos Aires, Argentina, accepted and built a template and additional tools. Here is Alejandro's repository with the results.
 
-#### Related Resources
+### Related Resources
 **Repositories and Merge Requests**
 
 - [courseware-template](https://gitlab.com/courseware-as-code/courseware-template): A project for easily setting up your Gitlab Pages, with plugins for easily building educational content (slides, quizzes, and others).
 - [courseware-tools](https://gitlab.com/courseware-as-code/courseware-tools):  A project for sharing coding assignments with your students. Automatically assigns them badges, which can be later be automatically updated using Webhooks.
 - [courseware-bot](https://gitlab.com/courseware-as-code/courseware-bot): A project for handling incoming Webhooks and updating the badges of the students.
-
 
 **Blog Posts, videos and more**
 
@@ -69,21 +68,6 @@ In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern 
 - The main obstacle we had with this project was the security issue that our original proposal had in regards to badges. We originally planned to add an API_TOKEN to each student repository, but that could have disastrous effects if they found out how to use that API TOKEN! More about this in the slides [link].
 
 - Currently Courseware as Code still requires some technical knowledge to spin it up: modify some config files, wait for the CI/CD pipeline to run, change the name of the repository, etc, etc. Maybe a script could be made to automate this even more, even better if it has an UI!
-
-
-
-
-
-
-
-# Benefits
-
-## See an example of the Introduction to Git module
-
-
-## Additional Applications and Feattures of CwaC
-
-
 
 
 

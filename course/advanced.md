@@ -18,7 +18,8 @@ Our objectives were: 1) test-driven assessment, 2) automating course deployment 
 ## Summary of the automation at Heriot-Watt
 
 Tooling that automates GitLab course creation enables scalability: of group hierarchies and group membership allows HW institutes to scale across courses, across year groups and across global campuses.
-1. Rule based API for writing GitLab file hooks
+
+Rule based API for writing GitLab file hooks
 - Programmatic automated rule-based course creation
 - Automation: Add students to course groups; Add lab helpers to student forks.
 - Compiled and deployed as a file hook on the server
@@ -38,4 +39,4 @@ Command line tool for executing batch GitLab operations (gitlab-tools)
 - [Blog](https://www.macs.hw.ac.uk/~rs46/posts/2020-02-01-gitlab-tools.html): “A command line tool for bulk GitLab operations”
 - [Open source ](https://gitlab.com/robstewart57/gitlab-tools)
 
-Read more in the [Heriot-Watt Case Study](https://about.gitlab.com/customers/heriot_watt_university/) and view the GitLab Commit 2021 Presentation [GitLab Users in the Making](https://www.youtube.com/watch?v=1y_RbYqPpDg). 
+Read more in the [Heriot-Watt Case Study](https://about.gitlab.com/customers/heriot_watt_university/) and view the GitLab Commit 2021 Presentation [GitLab Users in the Making](https://www.youtube.com/watch?v=1y_RbYqPpDg).

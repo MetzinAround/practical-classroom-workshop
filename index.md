@@ -15,5 +15,3 @@ Welcome to the GitLab Courseware as Code Workshop. This workshop will introduce 
 3. Set up the Courseware as Code repository by cloning the template
 4. Add basic content to the repository
 5. Set up the Courseware as Code Tools repository
-
-![organizing_work](attached_files/images/organizing_work.png)`

@@ -7,10 +7,6 @@ parent: Introduction
 
 Courseware as Code is a revolutionary approach to designing, creating, and maintaining course content and all related assets.  According to the Army Cyberschool “Leveraging applicable aspects of the software development lifecycle to courseware facilitates discussions of suggested changes amongst faculty, provides transparency in updates, enables custom workﬂows based on the complexity of course content, and allows faculty, students, and workforce members to identify issues and contribute Content.”
 
-## Courseware as Code is revolutionary!
-
-Courseware as Code is a revolutionary approach to designing, creating, and maintaining course content and all related assets.  According to the Army Cyberschool “Leveraging applicable aspects of the software development lifecycle to courseware facilitates discussions of suggested changes amongst faculty, provides transparency in updates, enables custom workﬂows based on the complexity of course content, and allows faculty, students, and workforce members to identify issues and contribute Content.”
-
 **The content generation process is rife with challenges all and opportunities including:**
 
 - Time to content delivery
@@ -40,11 +36,9 @@ Content generation from storyboard to delivery uses the DevOps lifecycle:
 
 
 ## Courseware as Code and GitLab Values
-GitLab's six core values are 🤝 Collaboration, 📈 Results , ⏱️ Efficiency, 🌐 Diversity, Inclusion & Belonging, 👣 Iteration, and 👁️ Transparency, and together they spell the CREDIT we give each other by assuming good intent. We react to them with values emoji and they are made actionable below. [Read more here](https://about.gitlab.com/handbook/values/).
+GitLab's six core values are 🤝  Collaboration, 📈 Results , ⏱️ Efficiency, 🌐 Diversity, Inclusion & Belonging, 👣 Iteration, and 👁️ Transparency, and together they spell the CREDIT we give each other by assuming good intent. We react to them with values emoji and they are made actionable below. [Read more here](https://about.gitlab.com/handbook/values/).
 
 Courseware as code is exciting to us because it connects education and our values directly with a DevOps framework. Here are some examples.
-
-
 
 | Value| Courseware as Code Examples | Army CyberSchool Data Points- [see pdf ](/uploads/89d95228727035e704d8e21c9917a048/Courseware_as_Code.pdf)|
 | ------ | ------ |------- |
@@ -59,4 +53,4 @@ Courseware as code is exciting to us because it connects education and our value
 
 - Development work by engineers is required to set this up and maintain in (similar to the GitLab Handbook)
 - Interactive and design elements standard in the L&D industry is not yet incorporated
-- Requires some understanding of DevOps concepts to implement. 
+- Requires some understanding of DevOps concepts to implement.

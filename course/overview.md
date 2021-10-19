@@ -13,11 +13,11 @@ parent: Introduction
 
 The DevOps process starts with a problem and moves through each stage starting with plan and moving through in a continuous cycle to monitor and then back to plan. The 7 stages are described in [detail here](https://about.gitlab.com/stages-devops-lifecycle/).
 
-{{site.baseurl}}/attached_files/images/devops_process.png
+![devops_process]({{site.baseurl}}/attached_files/images/devops_process.png)
 
 The tools and functions available in each stage.
 
-{{site.baseurl}}/attached_files/images/stages.png
+![stages]({{site.baseurl}}/attached_files/images/stages.png)
 
 ## DevOps Stages and Tools used in Courseware as Code
 Courseware as Code is similar to DevOps in that users can use only the tools they need at their time and then expand to more stages and more tools as their needs grows. Since this is an introductory workshop only a few tools are used. In the additional applications section below, we explain more advanced uses.

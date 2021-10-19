@@ -10,14 +10,14 @@ parent: Introduction
 
 **DevOps** is a set of practices and tools that combines software development and information technology operations. DevOps is also a cultural transformation; it improves collaboration between developers and operations team members by implementing a mindset that promotes feedback loops, continuous improvement, loosely coupled architecture teams.  
 
-![devops_process](attached_files/images/devops_process.png)
+
 The DevOps process starts with a problem and moves through each stage starting with plan and moving through in a continuous cycle to monitor and then back to plan. The 7 stages are described in [detail here](https://about.gitlab.com/stages-devops-lifecycle/).
 
-![stages](attached_files/images/stages.png)
+
 The tools and functions available in each stage.
 
 ### DevOps Stages and Tools used in Courseware as Code
-Courseware as Code is simular to DevOps in that users can use only the tools they need at their time and then expand to more stages and more tools as their needs grows. Since this is an introductory workshop only a few tools are used. In the additional applications section below, we explain more advanced uses.
+Courseware as Code is similar to DevOps in that users can use only the tools they need at their time and then expand to more stages and more tools as their needs grows. Since this is an introductory workshop only a few tools are used. In the additional applications section below, we explain more advanced uses.
 
 
 | Stage| Tools and Functions | CwaC Usage | CwaC Tools |

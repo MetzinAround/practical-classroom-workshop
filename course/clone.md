@@ -16,25 +16,24 @@ Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relatio
 1. Enable Shared Runners.
 Go to **Settings (⚙)** > **Pipelines** and click the **"Enable shared Runners"** button.
 1. Rename the repository to match the name you want for your site.
-1. Edit your website through GitLab or clone the repository and push your changes.
 
 
 ### Change the necessary configurations
 
-Once you have your own repository with the code for this template, you'll have to modify the `_config.yml`.
-After modifying the `title` and `descriptions` fields, you'll be ready to go!
+Once you have your own repository with the code for this template, you'll have to modify the `title` and `descriptions` fields in `_config.yml`.
+
 
 ```yaml
 title: <NAME OF YOUR COURSE> 
 description: <DESCRIPTION OF YOUR COURSE> 
 ```
 
-This can be changed in GitLab by using the built in WebIDE or the edit button
+This can be changed in GitLab by using the built in WebIDE or the edit button.
 
 ![gify-test](https://i.imgur.com/BbSxkPE.gif)
 
 After modifying the `_config.yml` file, a Gitlab CI/CD job will automatically launch.
-After that's done running (you'll know by the green check next to your latest commit), your site will be ready to go!
+After that's done running (you'll know by the green check next to your latest commit or check the CI/CD page), your site will be ready to go!
 
 ![green-mark-deploy](https://i.imgur.com/r7DiXu2.png)
 

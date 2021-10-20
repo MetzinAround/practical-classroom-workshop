@@ -31,8 +31,6 @@ Create a project in your group. This is where you'll define the code and questio
   If you have sample code or files you want to share with them, add it to the repository!
 - Create questions as issues
   Issues created in this repository will also be shared with your students. Use this as an opportunity to write your **questions** or **tasks** from your assignments as issues, and discuss with your students back and forth in them!
-
-Let's take the [test-exam project](https://gitlab.com/courseware-as-code/test-exam) project as an example. We'd be sharing the code in the [exam.py](https://gitlab.com/courseware-as-code/test-exam/-/blob/main/exam.py) file and all the [issues](https://gitlab.com/courseware-as-code/test-exam/-/issues) to our students.
     
 ### Fork or clone this project
 

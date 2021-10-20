@@ -27,10 +27,10 @@ The syntax for adding external images is similar to the hyperlink: `![Link text]
 
 Let's add `git`'s logo right after our main title:
 
-```yaml
+```
 # Git Fundamentals
 
-![git logo](https://i.imgur.com/DJEpvCv.png)
+![git-logo](https://i.imgur.com/DJEpvCv.png)
 
 git is a *free* and *open source* distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 ```

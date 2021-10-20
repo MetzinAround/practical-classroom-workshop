@@ -24,7 +24,7 @@ author:
 Now each `markdown` title in that file (remember that `markdown` titles begin with a `#`) will become a slide in your slide deck!
 We can also make use of all the `markdown` we learned before: we can add pictures, hyperlinks and format our text.
 
-```yaml
+```md
 ---
 title: 
 - Git Workflow
@@ -72,7 +72,7 @@ theme:
 ---
 ```
 
-You can check the resulting slides [here](https://alejandro-rusi.gitlab.io/courseware-git-example/attached_files/slides_pdf/git_slides.pdf)!
+You can check the resulting slides [here](https://devops-education.gitlab.io/pj-cwac-git-example/attached_files/slides_pdf/git_slides.pdf)!
 
 
 [Next Page](https://devops-education.gitlab.io/cwac-workshop/course/adding_more_than_one_page/)

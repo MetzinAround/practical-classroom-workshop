@@ -10,9 +10,9 @@ If you want some inspiration and references to make your course-creation process
 All of these are *Open Source*, so you can check out their source code and the resulting course!
 
 - This very same tutorial!
-    - [Gitlab repository](https://gitlab.com/courseware-as-code/courseware-template)
-    - [Course](https://courseware-as-code.gitlab.io/courseware-template/)
+    - [Gitlab repository](https://gitlab.com/devops-education/cwac-workshop)
+    - [Page](https://devops-education.gitlab.io/cwac-workshop/)
 
 - Git Example used in the tutorial
-    - [Gitlab repository](https://gitlab.com/alejandro-rusi/courseware-git-example)
-    - [Course](https://alejandro-rusi.gitlab.io/courseware-git-example/)
+    - [Gitlab repository](https://gitlab.com/devops-education/pj-cwac-git-example)
+    - [Page](https://devops-education.gitlab.io/pj-cwac-git-example/)

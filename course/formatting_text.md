@@ -105,7 +105,7 @@ Ordered:
 
 Let's format our text to make it look better:
 
-```yaml
+```md
 ---
 title: Git Fundamentals
 nav_order: 2

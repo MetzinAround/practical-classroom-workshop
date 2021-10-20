@@ -66,10 +66,10 @@ In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern 
 
 **Blog Posts, videos and more**
 
-[Blog post introducing Courseware as code](https://alejandro-rusi.gitlab.io/2021/05/31/toward-courseware)
-[Techy Tanuki Twitch Video Recording](https://youtu.be/qgQQ4MgnKR4) talking with PJ talking about Courseware as Code
-[End of project slides](https://docs.google.com/presentation/d/1rydx63ZojP6aLdeXfvAX1UOX4lRAP41y_nAp8rdjlZs/edit?usp=sharing)
-[Security issue for badges original proposal](https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit?usp=sharing)
+- [Blog post introducing Courseware as code](https://alejandro-rusi.gitlab.io/2021/05/31/toward-courseware)
+- [Techy Tanuki Twitch Video Recording](https://youtu.be/qgQQ4MgnKR4) talking with PJ talking about Courseware as Code
+- [End of project slides](https://docs.google.com/presentation/d/1rydx63ZojP6aLdeXfvAX1UOX4lRAP41y_nAp8rdjlZs/edit?usp=sharing)
+- [Security issue for badges original proposal](https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit?usp=sharing)
 
 **Challenges and future work**
 

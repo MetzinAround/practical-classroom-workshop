@@ -50,7 +50,7 @@ In the CwaC model, traditional documents such as slide presentations, word docum
 
 Read more about the Army's Cyberschool's Courseware as Code implementation in this GitLab Case Study: [How the U.S. Army Cyberschool created Courseware as Code with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/).
 
-[![Alternate Text]({image-url})]({https://www.youtube.com/watch?v=L4zf_QIr4jQ} "GitLab Commit 2020 Presentation")
+![Alternate Text]({image-url})]({https://www.youtube.com/watch?v=L4zf_QIr4jQ} "GitLab Commit 2020 Presentation")
 Watch the U.S. Army Cyber School's presentation on Courseware as Code at GitLab Commit 2020.
 
 ## Google Summer of Code 2021

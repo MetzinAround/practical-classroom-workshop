@@ -21,7 +21,7 @@ author:
 ---
 ```
 
-Now each `markdown` title in that file (remember that `markdown` titles begin with a `#`) will become a slide in your slide deck!
+Now each `markdown` title in that file (remember that `markdown` titles begin with a `#`) will become it's own slide in a new slide deck!
 We can also make use of all the `markdown` we learned before: we can add pictures, hyperlinks and format our text.
 
 ```md
@@ -71,6 +71,7 @@ theme:
 - Copenhagen
 ---
 ```
+Once you commit your code and run the pipeline, your slide shoould be available! 
 
 You can check the resulting slides [here](https://devops-education.gitlab.io/pj-cwac-git-example/attached_files/slides_pdf/git_slides.pdf)!
 

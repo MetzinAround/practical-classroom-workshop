@@ -7,6 +7,8 @@ nav_order: 5
 This project contains tools to help you create and share assignments with your students using **Gitlab repositories** and **Gitlab issues**, letting your students pick up useful knowledge about source control and code reviews.
 
 After running this tool each of your students will have their own individual repository with developer permissions, while the educators will be added with admin permissions.
+## Reminder: Namespaces, Groups, Projects
+COMING SOON
 
 ## How to create assignments
 
@@ -22,11 +24,11 @@ If it's an open course, feel free to make it public.
 
 ### Create a project for your assignement under your group
 
-Create a project in your group. This is where you'll define the code and questions you want to share with your students. When you create a project, you'll be able to choose the group it's a member of.
+Create a project in your group. This project will contain the repository, issues, and materials you want your students to have access to. The `coursware-tools` CI/CD will automatically createa  copy of each project for each student, private to them so other students cannot see it. The instructor or instructors will be defined ahead of time and will have access to all the projects. When you create a project, you'll be able to choose the group it's a member of.
 
 ![group-choosing](https://i.imgur.com/Nhh9bne.png)
 
-- Add the code you want to share with your students
+- Add the code you want to share with your students to this new project.
   Everything you add to this project will be shared with your students.
   If you have sample code or files you want to share with them, add it to the repository!
 - Create questions as issues
@@ -34,9 +36,9 @@ Create a project in your group. This is where you'll define the code and questio
     
 ### Fork or clone this project
 
-Now that you have your assignment project, feel free to **fork** this project or create your own project and copy all of the contents from [this one](https://gitlab.com/courseware-as-code/courseware-tools).
+Once you have created a new project wiht the materials, issues, etc you want your students to have, feel free to **fork** [this](https://gitlab.com/courseware-as-code/courseware-template/-/forks/new) project or create your own project and copy all of the contents from [this one](https://gitlab.com/courseware-as-code/courseware-tools).
 
-### Modify your `assignments.yaml` file
+### Modify the `assignments.yaml` file
 
 You'll see that this project (`courseware-tools`) contains a file called `assignments.yaml`.
 That's where you'll define which projects you want to share with your students.
@@ -64,14 +66,14 @@ course1: # the name of your assignment, you can choose anything!
 ### Run your code!
 
 To run this code, you'll need to create an **access token** with permissions to the Gitlab API.
-It's not as complicated as it sounds: click on **Preferences -> Access Tokens** and create a token with only `api` permissions.
+To do so, click on **Preferences -> Access Tokens** and create a token with only `api` permissions.
 This `.gif` shows you how to do that:
 
 ![api-token-steps](https://i.imgur.com/x9pvr97.gif)
 
 Be aware that this will allow our code to run some **Gitlab** actions such as project creation, edition and assignment with **your account**!
 Make sure you are OK with that before moving further.
-Feel free to check all of the calls to the **Gitlab API** we make in our code (mostly in the `tools.rb` file).
+Feel free to check all of the calls to the **Gitlab API** we make in our code (mostly in the `tools.rb` file inside the `lib` folder).
 
 Make sure to copy the token you just obtained.
 

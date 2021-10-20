@@ -43,8 +43,8 @@ Store it in the `attached_files/images` directory and you'll be able to use a si
 ## Attached files
 
 If you want to attach a file, you'll have to store it first.
-You can use of the one *directories* in the `attached_files/` directory.
-Let's add a `.pdf` file to our course: we'll have to store it in the `attached_files/pdf` directory.
+You can use the `attached_files/` directory in your repository.
+Let's add a `.pdf` file to our course: first, we'll have to store it in the `attached_files/pdf` directory.
 
 `{% raw %}{% attach_file {"file_name": "pdf/pro_git.pdf", "title":"Click here to download the Pro Git book"} %}{% endraw %}`
 

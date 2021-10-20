@@ -36,9 +36,9 @@ Which of these are `git` commands?
 ```
 
 We just created our first multiple choice quiz!
-To add it to our site, we'll get the `markdown` we got from the **Live Editor** and surround it with the `{% quiz %} {% endquiz %}` tags:
+To add it to our site, we'll get the `markdown` we got from the **Live Editor** and surround it with the `{% quiz %}` and `{% endquiz %}` tags:
 
-```markdown
+```yaml
 {% raw %}{% quiz %}{% endraw %}
 ---
 primary_color: steelblue

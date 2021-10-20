@@ -7,11 +7,10 @@ parent: Add Content to the Repository
 # Adding a course page
 
 Let's start by adding new content to your site.
-We can do that by creating `markdown` files in the `course` directory.
-`markdown` files are pretty similar to plain-text files, but have lots of simple yet powerful formatting capabilities.
+We can do that by creating `markdown` files in the `course` directory of your repository.`Markdown` files are pretty similar to plain-text files, but have lots of simple yet powerful formatting capabilities.
 You'll recognize `markdown` files by their `.md` or `.markdown` extension.
 
-All `markdown` files created in the `course` directory will be picked up by the site if they have the following header at the top:
+All `markdown` files created in the `course` directory will be picked up by the site as long as they include the following header at the top:
 
 ```yaml
 ---

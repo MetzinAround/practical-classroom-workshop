@@ -1,5 +1,5 @@
 ---
-title: Formatting your text
+title: Formatting Your Text with Markdown
 nav_order: 2
 parent: Add Content to the Repository
 ---
@@ -137,3 +137,6 @@ Some useful commands are:
 
 Now our course is starting to take shape.
 Let's continue by adding content.
+
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/adding_content/)

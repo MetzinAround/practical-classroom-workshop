@@ -1,5 +1,5 @@
 ---
-title: Adding slides
+title: Adding Slides
 nav_order: 5
 parent: Add Content to the Repository
 ---
@@ -73,3 +73,6 @@ theme:
 ```
 
 You can check the resulting slides [here](https://alejandro-rusi.gitlab.io/courseware-git-example/attached_files/slides_pdf/git_slides.pdf)!
+
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/adding_more_than_one_page/)

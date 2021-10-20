@@ -1,5 +1,5 @@
 ---
-title: Adding quizzes
+title: Adding Quizzes
 nav_order: 4
 parent: Add Content to the Repository
 ---
@@ -169,3 +169,6 @@ How can you modify your latest commit message?
 
 Wondering what you can and you cannot do with Quizdown?
 Check out their [documentation](https://github.com/bonartm/quizdown-js/blob/main/docs/syntax.md) for each type of quiz!
+
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/adding_slides/)

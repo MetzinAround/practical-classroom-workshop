@@ -1,5 +1,5 @@
 ---
-title: Adding a course page
+title: Adding a Course Page
 nav_order: 1
 parent: Add Content to the Repository
 ---
@@ -35,8 +35,10 @@ nav_order: 2
 Hello Courseware!
 ```
 
-After adding these changes, your new page will be available:
+After adding these changes, saving and commiting those changes on GitLab, and allowing the pipeline to run, your new page will be available:
 
 ![resulting-page](https://i.imgur.com/0ELicN0.png)
 
 Let's keep building on top of this page, format it and add some useful content.
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/formatting_text/)

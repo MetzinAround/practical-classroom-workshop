@@ -1,5 +1,5 @@
 ---
-title: Adding more than one page
+title: Adding More Than One Page
 nav_order: 6
 parent: Add Content to the Repository
 ---
@@ -31,3 +31,5 @@ If no `nav_order` is specified, the pages will be sorted alphabetically.
 
 If some of our pages depend on another, we can define them as *children* and *parent* images respectively.
 The [just-the-docs tutorial](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/#pages-with-children) explains this perfectly!
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/links_to_examples/)

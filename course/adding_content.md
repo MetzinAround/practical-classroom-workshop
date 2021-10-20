@@ -1,5 +1,5 @@
 ---
-title: Adding content
+title: Adding Content
 nav_order: 3
 parent: Add Content to the Repository
 ---
@@ -51,3 +51,6 @@ Let's add a `.pdf` file to our course: we'll have to store it in the `attached_f
 Here's our page after adding all the content we previously mentioned:
 
 ![git-tutorial-page-finished](https://i.imgur.com/QhTkaL4.png)
+
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/adding_a_quiz/)

@@ -9,7 +9,7 @@ parent: Add Content to the Repository
 Our previous page was kind of boring.
 Let's start by adding some text and making sure to give it a nice format.
 
-We'll take our old *test page* and instead write a small page about `git`:
+We'll take our test page we just created and instead write a small page about `git`:
 
 ```yaml
 ---
@@ -17,7 +17,7 @@ title: Git Fundamentals
 nav_order: 2
 ---
 
-git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
 
@@ -33,7 +33,7 @@ git commit to capture those changes
 git push to send them out to a remote repository!
 ```
 
-And it looks something like this:
+Once this is saved, added, commited, and pushed to main, it looks something like this:
 
 ![git-page](https://i.imgur.com/N22CBLj.png)
 
@@ -84,6 +84,7 @@ That looks much better!
 - *Italics*: to italicize your text surround it with one asterisk: `*text*`
 - **Bold**: surround the word you want to bolden with two asterisks like so: `**text**`
 - `code`: to denote a word as code, enclose it in backticks \`text\`.
+- `code blocks`: If you have a whole code block to include, wrap it in three backticks instead of just one. 
 
 You can also have **ordered** lists and **unordered** lists.
 
@@ -105,7 +106,7 @@ Ordered:
 
 Let's format our text to make it look better:
 
-```md
+```yaml
 ---
 title: Git Fundamentals
 nav_order: 2

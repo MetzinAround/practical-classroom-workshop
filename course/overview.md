@@ -50,8 +50,8 @@ In the CwaC model, traditional documents such as slide presentations, word docum
 
 Read more about the Army's Cyberschool's Courseware as Code implementation in this GitLab Case Study: [How the U.S. Army Cyberschool created Courseware as Code with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/).
 
-![Alternate Text]({image-url})]({https://www.youtube.com/watch?v=L4zf_QIr4jQ} "GitLab Commit 2020 Presentation")
-Watch the U.S. Army Cyber School's presentation on Courseware as Code at GitLab Commit 2020.
+
+Watch the U.S. Army Cyber School's presentation on [Courseware as Code at GitLab Commit 2020](https://www.youtube.com/watch?v=L4zf_QIr4jQ).
 
 ## Google Summer of Code 2021
 
@@ -73,7 +73,7 @@ In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern 
 
 **Challenges and future work**
 
-- The main obstacle we had with this project was the security issue that our original proposal had in regards to badges. We originally planned to add an API_TOKEN to each student repository, but that could have disastrous effects if they found out how to use that API TOKEN! More about this in the slides](https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit#slide=id.p).
+- The main obstacle we had with this project was the security issue that our original proposal had in regards to badges. We originally planned to add an API_TOKEN to each student repository, but that could have disastrous effects if they found out how to use that API TOKEN! More about this in the [slides](https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit#slide=id.p).
 
 - Currently Courseware as Code still requires some technical knowledge to spin it up: modify some config files, wait for the CI/CD pipeline to run, change the name of the repository, etc, etc. Maybe a script could be made to automate this even more, even better if it has an UI!
 

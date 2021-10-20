@@ -6,4 +6,4 @@ parent: Introduction
 
 # Example Courseware as Code on GitLab
 
-[PJ TO INSERT EXAMPLE HERE]
+

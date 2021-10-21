@@ -1,6 +1,6 @@
 ---
 title: Adding Slides
-nav_order: 5
+nav_order: 6
 parent: Add Content to the Repository
 ---
 
@@ -55,9 +55,9 @@ Now we can attach our slides like we learned:
 
 ## Customizing your slides
 
-The header supports lots of configurations. They are listed [here](https://pandoc.org/MANUAL.html#variables-for-beamer-slides).
+The header supports several configurations. They are listed [here](https://pandoc.org/MANUAL.html#variables-for-beamer-slides).
 
-For example, we could add a *theme*, the insitute where we're presenting our slide presentation and school logo.
+For example, we could add a *theme* or the name of the insitute where we're presenting our slide presentation.
 
 ```yaml
 ---
@@ -71,7 +71,7 @@ theme:
 - Copenhagen
 ---
 ```
-Once you commit your code and run the pipeline, your slide shoould be available! 
+Once you commit your code and run the pipeline, your slide should be available! 
 
 You can check the resulting slides [here](https://devops-education.gitlab.io/pj-cwac-git-example/attached_files/slides_pdf/git_slides.pdf)!
 

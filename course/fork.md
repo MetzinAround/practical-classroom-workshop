@@ -14,8 +14,7 @@ This will create your own personal version of this repository, that you'll be ab
 1. **IMPORTANT:** Remove the fork relationship.
 Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relationship"** button.
 1. Enable Shared Runners.
-Go to **Settings (⚙)** > **Pipelines** and click the **"Enable shared Runners"** button.
-1. Rename the repository to match the name you want for your site.
+Go to **Settings (⚙)** > **CI/CD** and make sure the **"Enable shared Runners"** button is on.
 
 
 ### Change the necessary configurations

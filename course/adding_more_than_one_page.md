@@ -1,6 +1,6 @@
 ---
 title: Adding More Than One Page
-nav_order: 6
+nav_order: 2
 parent: Add Content to the Repository
 ---
 

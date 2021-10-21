@@ -1,6 +1,6 @@
 ---
 title: Adding Quizzes
-nav_order: 4
+nav_order: 5
 parent: Add Content to the Repository
 ---
 

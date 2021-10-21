@@ -12,3 +12,5 @@ In order to complete the workshop, you'll need to have a GitLab.com account. If 
 1. Visit [https://gitlab.com](https://gitlab.com)
 2. Click on Register now or Sign in with an existing account.
 3. Log into your account.
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/setup/)

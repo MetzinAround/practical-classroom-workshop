@@ -40,3 +40,5 @@ Command line tool for executing batch GitLab operations (gitlab-tools)
 - [Open source ](https://gitlab.com/robstewart57/gitlab-tools)
 
 Read more in the [Heriot-Watt Case Study](https://about.gitlab.com/customers/heriot_watt_university/) and view the GitLab Commit 2021 Presentation [GitLab Users in the Making](https://www.youtube.com/watch?v=1y_RbYqPpDg).
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/create/)

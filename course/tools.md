@@ -36,7 +36,7 @@ Create a project in your group. This project will contain the repository, issues
     
 ### Fork or clone this project
 
-Once you have created a new project wiht the materials, issues, etc you want your students to have, feel free to **fork** [this](https://gitlab.com/courseware-as-code/courseware-tools/-/forks/new) project or create your own project and copy all of the contents from [this one](https://gitlab.com/courseware-as-code/courseware-tools).
+Once you have created a new project with the materials, issues, etc you want your students to have, feel free to **fork** [this](https://gitlab.com/courseware-as-code/courseware-tools/-/forks/new) project or create your own project and copy all of the contents from [this one](https://gitlab.com/courseware-as-code/courseware-tools).
 
 ### Modify the `assignments.yaml` file
 

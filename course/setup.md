@@ -13,6 +13,6 @@ Courseware as Code wouldn't be possible without it.
 
 ## Hosting your own Courseware as Code
 
-To start hosting this template using [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/), you can follow the [instructions](https://devops-education.gitlab.io/cwac-workshop/course/clone/) on how to fork this project to get started.
+To start hosting this template using [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/), you can follow the [instructions](https://devops-education.gitlab.io/cwac-workshop/course/content) on how to fork this project to get started.
 
 [Next Page](https://devops-education.gitlab.io/cwac-workshop/course/fork/)

@@ -6,20 +6,20 @@ parent: Set Up Courseware as Code
 
 ### Creating your own repository
 
-#### By forking this repository
+#### By forking this project
 
-[Click here](https://gitlab.com/courseware-as-code/courseware-template/-/forks/new) to fork this repository!
-This will create your own personal version of this repository, that you'll be able to modify and make your own. 
+[Click here](https://gitlab.com/courseware-as-code/courseware-template/-/forks/new) to fork this project!
+This will create your own personal version of this project inclduing the repository, that you'll be able to modify and make your own. 
 
 1. **IMPORTANT:** Remove the fork relationship.
-Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relationship"** button.
+Go to **Settings (⚙)** > **General** and head to **Advanced** toward the bottom and click the **"Remove fork relationship"** button.
 1. Enable Shared Runners.
-Go to **Settings (⚙)** > **CI/CD** and make sure the **"Enable shared Runners"** button is on.
+Go to **Settings (⚙)** > **CI/CD** and head to **Runners** to make sure the **"Enable shared Runners"** button is on.
 
 
 ### Change the necessary configurations
 
-Once you have your own repository with the code for this template, you'll have to modify the `title` and `descriptions` fields in `_config.yml`.
+Now that have your own repository, you'll have to modify the `title` and `descriptions` fields in `_config.yml`.
 
 
 ```yaml

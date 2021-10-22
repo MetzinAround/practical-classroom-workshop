@@ -9,7 +9,7 @@ parent: Set Up Courseware as Code
 #### By forking this repository
 
 [Click here](https://gitlab.com/courseware-as-code/courseware-template/-/forks/new) to fork this repository!
-This will create your own personal version of this repository, that you'll be able to modify and add content freely.
+This will create your own personal version of this repository, that you'll be able to modify and make your own. 
 
 1. **IMPORTANT:** Remove the fork relationship.
 Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relationship"** button.

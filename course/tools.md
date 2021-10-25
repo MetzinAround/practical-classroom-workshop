@@ -22,7 +22,7 @@ To create your **Gitlab Group**, click on **Menu -> Create group**
 Make sure that if you want your assignments to be seen only by you and your students, make the group private!
 If it's an open course, feel free to make it public. 
 
-### Create a project for your assignement under your group
+### Create a project for your assignment under your group
 
 Create a project in your group. This project will contain the repository, issues, and materials you want your students to have access to. The `coursware-tools` CI/CD will automatically create a copy of each project for each student, private to them so other students cannot see it. The instructor or instructors will be defined ahead of time and will have access to all the projects. When you create a project, you'll be able to choose the group it's a member of.
 

@@ -45,7 +45,7 @@ That's where you'll define which projects you want to share with your students.
 
 Let's explain each of its fields:
 ```yaml
-course1: # the name of your assignment, you can choose anything!
+course1: # leave this part blank
   template_name: <PROJECT_NAME> # the name of the project you want to share with your students
   group_name: <GROUP_NAME> # the name of the group in which you created your assignments
   educators: # the gitlab handles of your educators
@@ -55,7 +55,7 @@ course1: # the name of your assignment, you can choose anything!
 For example, if we wanted to create an assignment for a project called `graph-algorithms-exam` created in the `intro-to-algorithms-class` group with `turing123` and `E-Dijkstra` as educators we'd have the following `assignments.yaml` file:
 
 ```yaml
-course1: # the name of your assignment, you can choose anything!
+course1: # leave this blank
   template_name: graph-algorithms-exam # the name of the project you want to share with your students
   group_name: intro-to-algorithms-class # the name of the group in which you created your assignments
   educators: # the gitlab handles of your educators
@@ -77,7 +77,7 @@ Feel free to check all of the calls to the **Gitlab API** we make in our code (m
 
 Make sure to copy the token you just obtained.
 
-- Running with Gitlab CI/CD
+### Running with Gitlab CI/CD
 
 Using Gitlab CI/CD you'll be able to run this code without installing anything, just by running a **Gitlab pipeline**.
 

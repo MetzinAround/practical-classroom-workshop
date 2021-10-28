@@ -6,9 +6,10 @@ nav_order: 5
 
 This project contains tools to help you create and share assignments with your students using **Gitlab repositories** and **Gitlab issues**, letting your students pick up useful knowledge about source control and code reviews.
 
-After running this tool each of your students will have their own individual repository with developer permissions, while the educators will be added with admin permissions.
+After running this tool each of your students will have their own individual repository copied fomr a designated project you'e already created with developer permissions, while the educators will be added with admin permissions.
+
 ## Reminder: Namespaces, Groups, Projects
-COMING SOON
+A namespace are the groups, subgroups, projects, and epics belonging to a single user. The Group is where you'll add students as a `guest` level access. The project is an individual week worht of assignments, single assignment, or homework. 
 
 ## How to create assignments
 

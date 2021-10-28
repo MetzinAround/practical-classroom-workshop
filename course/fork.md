@@ -8,7 +8,7 @@ parent: Set Up Courseware as Code
 
 #### By forking this project
 
-[Click here](https://gitlab.com/courseware-as-code/courseware-template/-/forks/new) to fork this project!
+[Click here](https://gitlab.com/e1171/edsigcon-courseware-template/-/forks/new) to fork this project!
 This will create your own personal version of this project inclduing the repository, that you'll be able to modify and make your own. 
 
 1. **IMPORTANT:** Remove the fork relationship.

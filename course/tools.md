@@ -22,6 +22,8 @@ To create your **Gitlab Group**, click on **Menu -> Create group**
 Make sure that if you want your assignments to be seen only by you and your students, make the group private!
 If it's an open course, feel free to make it public. 
 
+When inviting your students to the group, you should give them the accessibility level of `guest` in order to prevent them from seeing projects the belong to other students. The projects that the courseware tool will create for your students will automatically give them a higher accessibility level of `developer` so they are able to make changes to the code and use mege requests. 
+
 ### Create a project for your assignment under your group
 
 Create a project in your group. This project will contain the repository, issues, and materials you want your students to have access to. The `coursware-tools` CI/CD will automatically create a copy of each project for each student, private to them so other students cannot see it. The instructor or instructors will be defined ahead of time and will have access to all the projects. When you create a project, you'll be able to choose the group it's a member of.
@@ -47,7 +49,7 @@ Let's explain each of its fields:
 ```yaml
 course1: # leave this part blank
   template_name: <PROJECT_NAME> # the name of the project you want to share with your students
-  group_name: <GROUP_NAME> # the name of the group in which you created your assignments
+  group_id: <GROUP_NAME> # the id number of the group in which you created your assignments
   educators: # the gitlab handles of your educators
     - <GITLAB_HANDLE>
 ```
@@ -57,7 +59,7 @@ For example, if we wanted to create an assignment for a project called `graph-al
 ```yaml
 course1: # leave this blank
   template_name: graph-algorithms-exam # the name of the project you want to share with your students
-  group_name: intro-to-algorithms-class # the name of the group in which you created your assignments
+  group_id: 1234567 # the name of the group in which you created your assignments
   educators: # the gitlab handles of your educators
     - turing123
     - E-Dijkstra

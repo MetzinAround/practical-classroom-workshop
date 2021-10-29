@@ -14,7 +14,7 @@ This will create your own personal version of this project inclduing the reposit
 On the [**Fork Project**](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#project-forking-workflow) page   You can change the name of the project, the namespace and the and set the Project slug. The slug will be used in the URL of your GitLab Pages website or Wiki. The namespace is a unique name and URL for a user, a group, or subgroup.
 ![fork_template.png]({{site.baseurl}}/attached_files/images/fork_template.png)
 
-Steps:
+**Steps:**
  1. Modify the name of the project if you wish.
  2. Select your namespace. You will likely only have one.
  3. Modify the slug if you wish.
@@ -24,7 +24,7 @@ Steps:
 
  Note: You will not be able to pull or push repositories until you [add an SSH key](https://docs.gitlab.com/ee/administration/get_started.html#authentication) to your profile. We won't work locally in this workshop so you don't need to do this now.
 
- Next:
+**Steps:**
 1. **IMPORTANT:** Remove the fork relationship.
 Go to **Settings (⚙)** > **Advanced Setting** and click the **"Remove fork relationship"** button.
 1. You'll be asked to re-type the project name to verify that you want to remove the fork.
@@ -44,7 +44,7 @@ description: <DESCRIPTION OF YOUR COURSE>
 
 ![gify-test](https://i.imgur.com/BbSxkPE.gif)
 
-Steps:
+**Steps:**
 1. Go to the repository.
 2. Click on Files.
 3. Find the `_config.yml`. Click on it.

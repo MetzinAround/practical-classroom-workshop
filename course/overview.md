@@ -40,7 +40,7 @@ The exact origin of CwaC in action is unknown to us. We do know that many open-s
 
 The U.S. Army Cyberschool, a GitLab customer, officially coined the term Courseware as Code in their publication `Courseware as code setting a new bar for transparency and collaboration` published in the IEEE Frontiers in Education Conference in 2018(1) and subsequent publication in `Courseware as Code: Instituting Agile Courseware Collaboration` in IEEE Security & Privacy in 2020(2.)
 
-According the authors....
+According to the authors....
 
 >Using a foundation of DevOps and Continuous Integration/Continuous Delivery (CI/CD) philosophies, our idea for Courseware as Code extends the idea of ”Everything as Code” to educational content. Leveraging applicable aspects of the software development lifecycle to courseware facilitates discussions of suggested changes amongst faculty, provides transparency in updates, enables custom workflows based on the complexity of course content, and allows faculty, students, and workforce members to identify issues and contribute content.
 
@@ -55,7 +55,7 @@ Watch the U.S. Army Cyber School's presentation on [Courseware as Code at GitLab
 
 ## Google Summer of Code 2021
 
-In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern for developing a [Courseware as Code template](https://summerofcode.withgoogle.com/archive/2021/projects/4787041501446144/) Alejandro Rusi, a Master's student in Universidad de Buenos Aires in Buenos Aires, Argentina, accepted and built a template and additional tools. Here is Alejandro's repository with the results.
+In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern for developing a [Courseware as Code template](https://summerofcode.withgoogle.com/archive/2021/projects/4787041501446144/). Alejandro Rusi, a Master's student in Universidad de Buenos Aires in Buenos Aires, Argentina, accepted and built a template and additional tools. Below is Alejandro's repository with the results.
 
 ### Related Resources
 **Repositories and Merge Requests**

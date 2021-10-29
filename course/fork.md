@@ -9,12 +9,12 @@ parent: Set Up Courseware as Code
 #### By forking this project
 
 [Click here](https://gitlab.com/e1171/edsigcon-courseware-template/-/forks/new) to fork this project!
-This will create your own personal version of this project inclduing the repository, that you'll be able to modify and make your own. 
+This will create your own personal version of this project inclduing the repository, that you'll be able to modify and make your own.
 
-Here is a screenshot of the Fork Project page and here is the [docs page](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#project-forking-workflow). You can change the name of the project, the namespace and the and set the Project slug. The slug will be used in the URL of your GitLab Pages website or Wiki. The namespace is a unique name and URL for a user, a group, or subgroup. ... Alex creates an account with the username.
+On the []**Fork Project**](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#project-forking-workflow) page   You can change the name of the project, the namespace and the and set the Project slug. The slug will be used in the URL of your GitLab Pages website or Wiki. The namespace is a unique name and URL for a user, a group, or subgroup.
 ![fork_template.png]({{site.baseurl}}/attached_files/images/fork_template.png)
 
- Next:
+Steps:
  1. Modify the name of the project if you wish.
  2. Select your namespace. You will likely only have one.
  3. Modify the slug if you wish.
@@ -24,19 +24,10 @@ Here is a screenshot of the Fork Project page and here is the [docs page](https:
 
  Note: You will not be able to pull or push repositories until you [add an SSH key](https://docs.gitlab.com/ee/administration/get_started.html#authentication) to your profile. We won't work locally in this workshop so you don't need to do this now.
 
- Next:
+Next:
 1. **IMPORTANT:** Remove the fork relationship.
-<<<<<<< Updated upstream
 Go to **Settings (⚙)** > **General** and head to **Advanced** toward the bottom and click the **"Remove fork relationship"** button.
-1. Enable Shared Runners.
-Go to **Settings (⚙)** > **CI/CD** and head to **Runners** to make sure the **"Enable shared Runners"** button is on.
-=======
-Go to **Settings (⚙)** > **Advanced Setting** and click the **"Remove fork relationship"** button.
-1. You'll be asked to re-type the project name to verify that you want to remove the fork.
-1. Enable Shared Runners.
-Go to **Settings (⚙)** > **CI/CD** and next to **Runners** click the **"Expand"** button.
-1. Scroll down and make sure **Enable shared runners for this project** is checked.
->>>>>>> Stashed changes
+1. Enable Shared Runners.Go to **Settings (⚙)** > **CI/CD** and head to **Runners** to make sure the **"Enable shared Runners"** button is on.
 
 
 ### Change the necessary configurations

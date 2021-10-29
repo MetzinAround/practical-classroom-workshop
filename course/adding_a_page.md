@@ -24,7 +24,7 @@ The `title` will be the name for your page that shows up in your Courseware webs
 
 Let's try this out by creating a `markdown` file in the `course` directory!
 
-## Steps:
+**Steps:**
 1. From the repository, click on the course folder.
 1. Then add a file by clicking on the + dropdown menu next to main and choose **new file**.   
 ![add_file.png]({{site.baseurl}}/attached_files/images/add_file.png)

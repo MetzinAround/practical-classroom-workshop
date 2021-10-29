@@ -77,7 +77,7 @@ Let's explain each of its fields:
 ```yaml
 course1: # leave this part blank
   template_name: <PROJECT_NAME> # the name of the project you want to share with your students
-  group_id: <GROUP_NAME> # the id number of the group in which you created your assignments
+  group_id: <GROUP_ID> # the id number of the group in which you created your assignments
   educators: # the gitlab handles of your educators
     - <GITLAB_HANDLE>
 ```
@@ -132,8 +132,10 @@ But first, you'll need to define a **Variable** for the token you created in the
 ![token-assign-key](https://i.imgur.com/RnudAdi.gif)
 
 1. You can now click on **CI/CD ->Pipeline** and **Run Pipeline**.
-1. Enter the API_TOKEN and click run. 
+1. Enter the name of API_TOKEN and click run.
 This will automatically create and share the assignments with all of your students!
+
+Your students will now have a copy of the project in their namespace. 
 
 ## Frequently Asked Questions
 

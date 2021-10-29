@@ -62,8 +62,9 @@ For the purposes of the workshop, we'll create an [issue](https://docs.gitlab.co
 ![issue.png]({{site.baseurl}}/attached_files/images/issue.png)
 
 ### Fork or clone this project
-1. **Fork** the [Courseware as Code Tools Project](https://gitlab.com/courseware-as-code/courseware-tools/-/forks/new) project to your group or create your own project and copy all of the contents from it to yours. The project contains the code we need.
-- Remember to choose your new namespace.
+1. **Fork** the [Courseware as Code Tools Project](https://gitlab.com/e1171/edsigcon-courseware-tools/-/forks/new) project to your group or create your own project and copy all of the contents from it to yours. The project contains the code we need.
+
+- Remember to choose your newly created namespace.
 
 The Courseware as Code Tools project should now be in your namespace.
 

@@ -37,23 +37,18 @@ Go to **Settings (⚙)** > **CI/CD** and next to **Runners** click the **"Expand
 
 Now that have your own repository, you'll have to modify the `title` and `descriptions` fields in `_config.yml`.
 
-1. Go to the repository.
-2. Click on Files.
-3. Find the `_config.yml`. Click on it.
-4. Edit it with  in GitLab by using the built in WebIDE or the edit button. In both cases, once you make the edit you can commit the changes by entering a commit message and clicking **Commit changes**. Use the target branch as `main`.
-
-1. Go to the repository.
-2. Click on Files.
-3. Find the `_config.yml`. Click on it.
-4. Edit it with  in GitLab by using the built in WebIDE or the edit button. In both cases, once you make the edit you can commit the changes by entering a commit message and clicking **Commit changes**. Use the target branch as `main`.
-
-
 ```yaml
 title: <NAME OF YOUR COURSE>
 description: <DESCRIPTION OF YOUR COURSE>
 ```
 
 ![gify-test](https://i.imgur.com/BbSxkPE.gif)
+
+Steps:
+1. Go to the repository.
+2. Click on Files.
+3. Find the `_config.yml`. Click on it.
+4. Edit it with  in GitLab by using the built in WebIDE or the edit button. In both cases, once you make the edit you can commit the changes by entering a commit message and clicking **Commit changes**. Use the target branch as `main`.
 
 After modifying the `_config.yml` file, a Gitlab CI/CD job will automatically launch.
 

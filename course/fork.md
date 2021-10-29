@@ -60,5 +60,13 @@ After that's done running (you'll know by the green check next to your latest co
 The changes you make to your course will reflect on the website once the pipeline has finished running.
 You can also run this locally using an editor of your choosing and git commands.
 
+### Preview your pages
+
 The URL of your site will contain your user/group that owns your repository and the name of the repository.
 For example if you created the repository with the Gitlab user `Diego14` and your repository is called `intro-to-music-theory`, the resulting URL will be: `https://Diego14.gitlab.io/intro-to-music-theory`
+
+You can also find the URL:
+1. Go to **Settings**, **Pages**.
+1. Scroll down to until you see the URL under Access page. Click on the link to open your page.
+
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/content/)

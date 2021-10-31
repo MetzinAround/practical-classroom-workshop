@@ -108,7 +108,7 @@ To run this code, you'll need to create an **access token** with permissions to 
 1. To do so, click on **Preferences** from the dropdown menu next to your user icon on the upper right.
 1. Then click on **Access Tokens**.
 1. Name the token and choose an expiration date.
-1. Check only `api` permissions. Then create the token.
+1. Check only the `api` permissions box. Then create the token.
 1. When the token is created copy it to the clipboard.
 This `.gif` shows you how to do that:
 
@@ -120,20 +120,20 @@ Feel free to check all of the calls to the **Gitlab API** we make in our code (m
 
 Make sure to copy the token you just obtained.
 
-### Running with Gitlab CI/CD
-
-Using Gitlab CI/CD you'll be able to run this code without installing anything, just by running a **Gitlab pipeline**.
-
-But first, you'll need to define a **Variable** for the token you created in the fork of `courseware-tools`.
+You need to define a **Variable** for the token you created in yout fork of `courseware-tools`.
 
 **Steps:**
-1. Back at the Courseware as Code Tools project (the one you forked into your own group), Click on **Settings -> CI/CD -> Variables** in your project and create a **Variable** by clicking **Add variable**. Name this **variable** key `API_TOKEN` and the token you just created as a value. Check `Protect variable`.
+1. Back at the Courseware as Code Tools `project` **not the group** (the one you forked into your own group), Click on **Settings -> CI/CD -> Variables** in your project and create a **Variable** by clicking **Add variable**. Name this **variable** key `API_TOKEN` and the token you just created as a value. Check `Protect variable`.
 1. Click add variable.
 
 ![token-assign-key](https://i.imgur.com/RnudAdi.gif)
 
-1. You can now click on **CI/CD ->Pipeline** and **Run Pipeline**.
-1. Enter the name of API_TOKEN and click run.
+### Running with Gitlab CI/CD
+
+Using Gitlab CI/CD you'll be able to run this code without installing anything, just by running a **Gitlab pipeline**.
+
+You can now click on **CI/CD ->Pipeline** and **Run Pipeline**.
+
 This will automatically create and share the assignments with all of your students!
 
 Your students will now have a copy of the project in their namespace. 

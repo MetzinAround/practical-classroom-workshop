@@ -9,7 +9,7 @@ The Courseware as Code Tools project contains tools to help you create and share
 After running CwaC tools each of your students will have their own individual repository copied from a designated project you've already created. You, the educator, will have admin permissions on the project and students will have developer permissions. Learn more about permissions in the [docs](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions).
 
 An overview of the process:
-1. Create a Groups
+1. Create a Group
 1. Invite your students
 1. Create a project under your Groups
 1. Add the content you want to share to the project. Content can include issues (assignments), code samples, and more.  
@@ -21,7 +21,7 @@ Next, we'll walk through this step by step.
 
 
 ## Reminder: Namespaces, Groups, Projects
-A namespace contains the groups, subgroups, projects, and epics belonging to a single user. The Group is where you'll add students as a `guest` level access. The project is an individual week worth of assignments, single assignment, or homework.
+A namespace contains the groups, subgroups, projects, and epics belonging to a single user. The Group is where you'll add students with `guest` level access. The project is an individual week worth of assignments, single assignment, or homework.
 
 ## How to create assignments
 
@@ -45,7 +45,7 @@ When inviting your students to the group, you should give them the accessibility
 
 ### Create a project for your assignment under your group
 
-Next, create a project in your group. This project will contain the repository, issues, and materials you want your students to have access to. The `coursware-tools` CI/CD, when run, will automatically create a copy of each project for each student, private to them so other students cannot see it. The instructor or instructors will be defined ahead of time and will have access to all the projects. When you create a project, you'll be able to choose the group it's a member of.
+Next, create a project in your group. This project will contain the repository, issues, and materials you want your students to have access to. The `coursware-tools` CI/CD, when run, will automatically create a copy of the specified project or projects for each student, private to them so other students cannot see it. The instructor or instructors will be defined ahead of time and will have access to all the projects as a maintainer. When you create a project, you'll be able to choose the group it's a member of.
 
 **Steps:**
 1.  From the group, click **New Project**. Fill out the options accordingly.
@@ -93,7 +93,9 @@ course1: # leave this blank
     - turing123
     - E-Dijkstra
 ```
+The `group-id` field can be copied directly from the group page. Under the name of the group is the group id. Cick it to copy it to your clipboard and then paste it into the field in `assignments.yaml`
 
+Make sure to copy and paste the title of the project being shared with your students for the field `template_name` so as not to make a typo. 
 **Steps:**
 1. Edit the assignments.yaml with the WebIDE or by clicking edit.
 2. Modify the three fields.
@@ -123,7 +125,7 @@ Make sure to copy the token you just obtained.
 You need to define a **Variable** for the token you created in yout fork of `courseware-tools`.
 
 **Steps:**
-1. Back at the Courseware as Code Tools `project` **not the group** (the one you forked into your own group), Click on **Settings -> CI/CD -> Variables** in your project and create a **Variable** by clicking **Add variable**. Name this **variable** key `API_TOKEN` and the token you just created as a value. Check `Protect variable`.
+1. Back at the recently forked Courseware as Code Tools `project` **not the group**, Click on **Settings -> CI/CD -> Variables** in your project and create a **Variable** by clicking **Add variable**. Name this **variable** key `API_TOKEN` and the token you just created as a value. Check `Protect variable` and  `Mask variable`.
 1. Click add variable.
 
 ![token-assign-key](https://i.imgur.com/RnudAdi.gif)

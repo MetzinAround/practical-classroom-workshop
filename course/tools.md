@@ -76,20 +76,20 @@ You'll see that this project (`courseware-tools`) contains a file called `assign
 
 Let's explain each of its fields:
 ```yaml
-course1: # leave this part blank
-  template_name: <PROJECT_NAME> # the name of the project you want to share with your students
-  group_id: <GROUP_ID> # the id number of the group in which you created your assignments
-  educators: # the gitlab handles of your educators
+course1:
+  template_name: <PROJECT_NAME> # **DELETE THIS COMMENT BEFORE RUNNING** Copy the *project* you want students to have a copy of exactly as it appears on the *project* page
+  group_id: <GROUP_ID>  # **DELETE THIS COMMENT BEFORE RUNNING** copy the group-id exactly as it appears on the *group* page
+  educators:
     - <GITLAB_HANDLE>
 ```
 
 For example, if we wanted to create an assignment for a project called `graph-algorithms-exam` created in the `intro-to-algorithms-class` group with `turing123` and `E-Dijkstra` as educators we'd have the following `assignments.yaml` file:
 
 ```yaml
-course1: # leave this blank
-  template_name: graph-algorithms-exam # the name of the project you want to share with your students
-  group_id: 1234567 # the name of the group in which you created your assignments
-  educators: # the gitlab handles of your educators
+course1:
+  template_name: <PROJECT_NAME> # **DELETE THIS COMMENT BEFORE RUNNING** Copy the *project* you want students to have a copy of exactly as it appears on the *project* page
+  group_id: <GROUP_ID>  # **DELETE THIS COMMENT BEFORE RUNNING** copy the group-id exactly as it appears on the *group* page
+  educators:
     - turing123
     - E-Dijkstra
 ```
@@ -122,7 +122,7 @@ Feel free to check all of the calls to the **Gitlab API** we make in our code (m
 
 Make sure to copy the token you just obtained.
 
-You need to define a **Variable** for the token you created in yout fork of `courseware-tools`.
+You need to define a **Variable** for the token you created in your fork of `courseware-tools`.
 
 **Steps:**
 1. Back at the recently forked Courseware as Code Tools `project` **not the group**, Click on **Settings -> CI/CD -> Variables** in your project and create a **Variable** by clicking **Add variable**. Name this **variable** key `API_TOKEN` and the token you just created as a value. Check `Protect variable` and  `Mask variable`.

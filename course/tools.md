@@ -21,7 +21,7 @@ Next, we'll walk through this step by step.
 
 
 ## Reminder: Namespaces, Groups, Projects
-A namespace contains the groups, subgroups, projects, and epics belonging to a single user. The Group is where you'll add students with `guest` level access. The project is an individual week worth of assignments, single assignment, or homework.
+A namespace contains the groups, subgroups, projects, and epics belonging to a single user. The Group is where you'll add students with `guest` level access. The project is an individual week worth of assignments, single assignment, or homework. IT is recommended that you use all lowercase letters and dashes instead of spaces when naming groups and projects. Instead of `Test Class 1` try `test-class-1`
 
 ## How to create assignments
 

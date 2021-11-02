@@ -48,4 +48,4 @@ Hello Courseware!
 
 Let's keep building on top of this page, format it and add some useful content.
 
-<a href="https://devops-education.gitlab.io/cwac-workshop/course/formatting_text/" target="_blank">Next Page</a>
+[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/formatting_text/)

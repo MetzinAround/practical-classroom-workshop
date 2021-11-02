@@ -10,9 +10,9 @@ If you want some inspiration and references to make your course-creation process
 All of these are *Open Source*, so you can check out their source code and the resulting course!
 
 - This very same tutorial!
-    - [Gitlab repository](https://gitlab.com/devops-education/cwac-workshop)
-    - [Page](https://devops-education.gitlab.io/cwac-workshop/)
+    - <a href="https://gitlab.com/devops-education/cwac-workshop" target="_blank">Gitlab repository</a>
+    - <a href="https://devops-education.gitlab.io/cwac-workshop/" target="_blank">Page</a>
 
 - Git Example used in the tutorial
-    - [Gitlab repository](https://gitlab.com/devops-education/pj-cwac-git-example)
-    - [Page](https://devops-education.gitlab.io/pj-cwac-git-example/)
+    - <a href="https://gitlab.com/devops-education/pj-cwac-git-example" target="_blank">Gitlab repository</a>
+    - <a href="https://devops-education.gitlab.io/pj-cwac-git-example/" target="_blank">Page</a>

@@ -41,11 +41,11 @@ Content generation from storyboard to delivery uses the DevOps lifecycle:
 
 
 ## Courseware as Code and GitLab Values
-GitLab's six core values are 🤝  Collaboration, 📈 Results , ⏱️ Efficiency, 🌐 Diversity, Inclusion & Belonging, 👣 Iteration, and 👁️ Transparency, and together they spell CREDIT.  [Read more here](https://about.gitlab.com/handbook/values/).
+GitLab's six core values are 🤝  Collaboration, 📈 Results , ⏱️ Efficiency, 🌐 Diversity, Inclusion & Belonging, 👣 Iteration, and 👁️ Transparency, and together they spell CREDIT. <a href="https://about.gitlab.com/handbook/values/" target="_blank">Read more here</a>.
 
 Courseware as code is exciting to us because it connects education and our values directly with a DevOps framework. Here are some examples.
 
-| Value| Courseware as Code Examples | Army CyberSchool Data Points- [see pdf ](/uploads/89d95228727035e704d8e21c9917a048/Courseware_as_Code.pdf)|
+| Value| Courseware as Code Examples | Army CyberSchool Data Points-  [see pdf ](/uploads/89d95228727035e704d8e21c9917a048/Courseware_as_Code.pdf)|
 | ------ | ------ |------- |
 | Collaboration| subject matter experts can directly create original content such as exercises and course sections; they can also easily review MRs before new content is added to courses | contributors raised over 140 issues of which over 130 were resolved. |
 | Results | Because everyone can contribute, third party tools are not a blocker to scaling. Everyone can author code and contribute.  CI/CD pipelines automatically build content whenever a change is made and deployed to the LXP/LMS automatically.  | GitLab instance has synchronized over 175 users with an average of 6.7 merge requests submitted per user. Out of these users, over 100 of them are not USACYS faculty. These external users include students and workforce members|

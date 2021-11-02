@@ -55,7 +55,7 @@ Now we can attach our slides like we learned:
 
 ## Customizing your slides
 
-The header supports several configurations. They are listed [here](https://pandoc.org/MANUAL.html#variables-for-beamer-slides).
+The header supports several configurations. They are listed <a href="https://pandoc.org/MANUAL.html#variables-for-beamer-slides" target="_blank">here</a>.
 
 For example, we could add a *theme* or the name of the insitute where we're presenting our slide presentation.
 
@@ -73,7 +73,7 @@ theme:
 ```
 Once you commit your code and run the pipeline, your slide should be available! 
 
-You can check the resulting slides [here](https://devops-education.gitlab.io/pj-cwac-git-example/attached_files/slides_pdf/git_slides.pdf)!
+You can check the resulting slides <a href="https://devops-education.gitlab.io/pj-cwac-git-example/attached_files/slides_pdf/git_slides.pdf" target="_blank">here</a>.
 
 
 [Next Page](https://devops-education.gitlab.io/cwac-workshop/course/adding_more_than_one_page/)

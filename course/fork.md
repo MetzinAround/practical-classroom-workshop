@@ -8,10 +8,10 @@ parent: Set Up Courseware as Code
 
 #### By forking this project
 
-[Click here](https://gitlab.com/e1171/edsigcon-courseware-template/-/forks/new) to fork this project!
+<a href="https://gitlab.com/e1171/edsigcon-courseware-template/-/forks/new" target="_blank">Click here</a> to fork this project!
 This will create your own personal version of this project inclduing the repository, that you'll be able to modify and make your own.
 
-On the [**Fork Project**](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#project-forking-workflow) page   You can change the name of the project, the namespace and the and set the Project slug. The slug will be used in the URL of your GitLab Pages website or Wiki. The namespace is a unique name and URL for a user, a group, or subgroup.
+On the <a href="https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#project-forking-workflow" target="_blank">**Fork Project**</a> page you can change the name of the project, the namespace and the and set the Project slug. The slug will be used in the URL of your GitLab Pages website or Wiki. The namespace is a unique name and URL for a user, a group, or subgroup.
 ![fork_template.png]({{site.baseurl}}/attached_files/images/fork_template.png)
 
 **Steps:**
@@ -22,7 +22,7 @@ On the [**Fork Project**](https://docs.gitlab.com/ee/user/project/repository/for
  5. Choose a visibility level.
  6. Click Fork.
 
- Note: You will not be able to pull or push repositories until you [add an SSH key](https://docs.gitlab.com/ee/administration/get_started.html#authentication) to your profile. We won't work locally in this workshop so you don't need to do this now.
+ Note: You will not be able to pull or push repositories until you <a href="https://docs.gitlab.com/ee/administration/get_started.html#authentication" target="_blank">add an SSH key</a> to your profile. We won't work locally in this workshop so you don't need to do this now.
 
 **Steps:**
 1. **IMPORTANT:** Remove the fork relationship.

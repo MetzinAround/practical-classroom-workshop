@@ -11,7 +11,7 @@ parent: Introduction
 **DevOps** is a set of practices and tools that combines software development and information technology operations. DevOps is also a cultural transformation; it improves collaboration between developers and operations team members by implementing a mindset that promotes feedback loops, continuous improvement, and loosely coupled architecture teams.  
 
 
-The DevOps process starts with a problem and moves through each stage starting with the plan stage and moving through in a continuous cycle to the monitor stage and then back to plan. The 7 stages are described in [detail here](https://about.gitlab.com/stages-devops-lifecycle/).
+The DevOps process starts with a problem and moves through each stage starting with the plan stage and moving through in a continuous cycle to the monitor stage and then back to plan. The 7 stages are described in <a href="https://about.gitlab.com/stages-devops-lifecycle/" target="_blank">detail here</a>.
 
 ![devops_process]({{site.baseurl}}/attached_files/images/devops_process.png)
 
@@ -20,15 +20,15 @@ A summary of the GitLab tools and functions available in each stage are shown in
 ![stages]({{site.baseurl}}/attached_files/images/stages.png)
 
 ## DevOps Stages and Tools used in Courseware as Code
-Courseware as Code is similar to DevOps in that users can adopt and integrate only the tools they need at the time and then expand to more stages and more tools as their needs grows. Since this is an introductory workshop, only a few tools are used. In the [Advanced Applications](https://devops-education.gitlab.io/cwac-workshop/course/advanced/) section, we explain more advanced uses.
+Courseware as Code is similar to DevOps in that users can adopt and integrate only the tools they need at the time and then expand to more stages and more tools as their needs grows. Since this is an introductory workshop, only a few tools are used. In the <a href="https://devops-education.gitlab.io/cwac-workshop/course/advanced/" target="_blank">Advanced Applications</a> section, we explain more advanced uses.
 
 
 | Stage| Tools and Functions | CwaC Usage | CwaC Tools |
 |------|---------------------|------------|------------|
-| Plan | [Issues](https://docs.gitlab.com/ee/user/project/issues/#issues) | Issues store course assignments or tasks.| CwaC tools can make a copy of every issue in a course project and assign it to all course participants. Issues can have due dates, assignees, and milestones. They can also be organized with labels.|
-| Create |[Repository](https://docs.gitlab.com/ee/user/project/repository/#repository) | A repository is where you store your code and make changes to it. Your changes are tracked with version control. Each project contains a repository. | CwaC tools can make a separate project for each student in your class. The project contains a private repository where on the enrolled student and instructor can access the code. The repository stores code as submissions to issues (assignments). Git controls the versioning of the code.|
-| Plan, Create, and Verify | [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) | GitLab pages is used to publish a static website directly from a repository in GitLab.| CwaC uses GitLab pages to host content for the course in the form of a webage. The content is stored in markdown files in your course's home repository. GitLab CI/CD tools are used to build your site and publish to the GitLab Pages server. |
-| Verify | [GitLab CI/CD](https://docs.gitlab.com/ee/ci/index.html)| CI/CD is a tool for software development using the continuous methodologies of Continuous Integration, Continuous Delivery and Continuous Deployment. GitLab CI/CD can automatically build, test, deploy, and monitor applications. | GitLab CI/CD is used to build the course website. CI/CD pipelines can also be configured to check and grade code turned in by students into their central repository.|  
+| Plan | <a href="https://docs.gitlab.com/ee/user/project/issues/#issues" target="_blank">Issues</a> | Issues store course assignments or tasks.| CwaC tools can make a copy of every issue in a course project and assign it to all course participants. Issues can have due dates, assignees, and milestones. They can also be organized with labels.|
+| Create | <a href="https://docs.gitlab.com/ee/user/project/repository/#repository" target="_blank">Repository</a> | A repository is where you store your code and make changes to it. Your changes are tracked with version control. Each project contains a repository. | CwaC tools can make a separate project for each student in your class. The project contains a private repository where on the enrolled student and instructor can access the code. The repository stores code as submissions to issues (assignments). Git controls the versioning of the code.|
+| Plan, Create, and Verify | <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank">GitLab Pages</a> | GitLab pages is used to publish a static website directly from a repository in GitLab.| CwaC uses GitLab pages to host content for the course in the form of a webage. The content is stored in markdown files in your course's home repository. GitLab CI/CD tools are used to build your site and publish to the GitLab Pages server. |
+| Verify | <a href="https://docs.gitlab.com/ee/ci/index.html" target="_blank">GitLab CI/CD</a> | CI/CD is a tool for software development using the continuous methodologies of Continuous Integration, Continuous Delivery and Continuous Deployment. GitLab CI/CD can automatically build, test, deploy, and monitor applications. | GitLab CI/CD is used to build the course website. CI/CD pipelines can also be configured to check and grade code turned in by students into their central repository.|  
 
 
 
@@ -48,32 +48,32 @@ In the CwaC model, traditional documents such as slide presentations, word docum
 
 >These non-binary formats allow for text parsing and comparisons via change logs for review, discussion, and approval. This fine-grained control promotes trust in the integrity of the material and enables instructors to track every content change.
 
-Read more about the Army's Cyberschool's Courseware as Code implementation in this GitLab Case Study: [How the U.S. Army Cyberschool created Courseware as Code with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/).
+Read more about the Army's Cyberschool's Courseware as Code implementation in this GitLab Case Study: <a href="https://about.gitlab.com/customers/us_army_cyber_school/" target="_blank">How the U.S. Army Cyberschool created Courseware as Code with GitLab</a> .
 
 
-Watch the U.S. Army Cyber School's presentation on [Courseware as Code at GitLab Commit 2020](https://www.youtube.com/watch?v=L4zf_QIr4jQ).
+Watch the U.S. Army Cyber School's presentation on <a href="https://www.youtube.com/watch?v=L4zf_QIr4jQ" target="_blank">Courseware as Code at GitLab Commit 2020</a>.
 
 ## Google Summer of Code 2021
 
-In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern for developing a [Courseware as Code template](https://summerofcode.withgoogle.com/archive/2021/projects/4787041501446144/). Alejandro Rusi, a Master's student in Universidad de Buenos Aires in Buenos Aires, Argentina, accepted and built a template and additional tools. Below is Alejandro's repository with the results.
+In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern for developing a <a href="https://summerofcode.withgoogle.com/archive/2021/projects/4787041501446144/" target="_blank">Courseware as Code template</a>. Alejandro Rusi, a Master's student in Universidad de Buenos Aires in Buenos Aires, Argentina, accepted and built a template and additional tools. Below is Alejandro's repository with the results.
 
 ### Related Resources
 **Repositories and Merge Requests**
 
-- [courseware-template](https://gitlab.com/courseware-as-code/courseware-template): A project for easily setting up your Gitlab Pages, with plugins for easily building educational content (slides, quizzes, and others).
-- [courseware-tools](https://gitlab.com/courseware-as-code/courseware-tools):  A project for sharing coding assignments with your students. Automatically assigns them badges, which can be later be automatically updated using Webhooks.
-- [courseware-bot](https://gitlab.com/courseware-as-code/courseware-bot): A project for handling incoming Webhooks and updating the badges of the students.
+- <a href="https://gitlab.com/courseware-as-code/courseware-template" target="_blank">courseware-template</a>: A project for easily setting up your Gitlab Pages, with plugins for easily building educational content (slides, quizzes, and others).
+- <a href="https://gitlab.com/courseware-as-code/courseware-tools" target="_blank">courseware-tools</a>:  A project for sharing coding assignments with your students. Automatically assigns them badges, which can be later be automatically updated using Webhooks.
+- <a href="https://gitlab.com/courseware-as-code/courseware-bot" target="_blank">courseware-bot</a>: A project for handling incoming Webhooks and updating the badges of the students.
 
 **Blog Posts, videos and more**
 
-- [Blog post introducing Courseware as code](https://alejandro-rusi.gitlab.io/2021/05/31/toward-courseware)
-- [Techy Tanuki Twitch Video Recording](https://youtu.be/qgQQ4MgnKR4) talking with PJ talking about Courseware as Code
-- [End of project slides](https://docs.google.com/presentation/d/1rydx63ZojP6aLdeXfvAX1UOX4lRAP41y_nAp8rdjlZs/edit?usp=sharing)
-- [Security issue for badges original proposal](https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit?usp=sharing)
+- <a href="https://alejandro-rusi.gitlab.io/2021/05/31/toward-courseware" target="_blank">Blog post introducing Courseware as code</a>
+- <a href="https://youtu.be/qgQQ4MgnKR4" target="_blank">Techy Tanuki Twitch Video Recording</a> talking with PJ talking about Courseware as Code
+- <a href="https://docs.google.com/presentation/d/1rydx63ZojP6aLdeXfvAX1UOX4lRAP41y_nAp8rdjlZs/edit?usp=sharing" target="_blank">End of project slides</a>
+- <a href="https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit?usp=sharing" target="_blank">Security issue for badges original proposal</a>
 
 **Challenges and future work**
 
-- The main obstacle we had with this project was the security issue that our original proposal had in regards to badges. We originally planned to add an API_TOKEN to each student repository, but that could have disastrous effects if they found out how to use that API TOKEN! More about this in the [slides](https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit#slide=id.p).
+- The main obstacle we had with this project was the security issue that our original proposal had in regards to badges. We originally planned to add an API_TOKEN to each student repository, but that could have disastrous effects if they found out how to use that API TOKEN! More about this in the <a href="https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit#slide=id.p" target="_blank">slides</a>.
 
 - Currently Courseware as Code still requires some technical knowledge to spin it up: modify some config files, wait for the CI/CD pipeline to run, change the name of the repository, etc, etc. Maybe a script could be made to automate this even more, even better if it has an UI!
 

@@ -6,7 +6,7 @@ nav_order: 5
 
 The Courseware as Code Tools project contains tools to help you create and share assignments with your students using **Gitlab repositories** and **Gitlab issues**.
 
-After running CwaC tools each of your students will have their own individual repository copied from a designated project you've already created. You, the educator, will have admin permissions on the project and students will have developer permissions. Learn more about permissions in the [docs](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions).
+After running CwaC tools each of your students will have their own individual repository copied from a designated project you've already created. You, the educator, will have admin permissions on the project and students will have developer permissions. Learn more about permissions in the <a href="https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions" target="_blank">docs</a>.
 
 An overview of the process:
 1. Create a Group
@@ -56,13 +56,13 @@ Next, create a project in your group. This project will contain the repository, 
 - Create questions as issues
   Issues created in this repository will also be shared with your students. Use this as an opportunity to write your **questions** or **tasks** from your assignments as issues, and discuss with your students back and forth in them!
 
-For the purposes of the workshop, we'll create an [issue](https://docs.gitlab.com/ee/user/project/issues/#issues).
+For the purposes of the workshop, we'll create an <a href="https://docs.gitlab.com/ee/user/project/issues/#issues" target="_blank">issue</a>.
 2. From Issues, click **New Issue**.
 3. Add a title and short description. You can also set a weight or due date.
 ![issue.png]({{site.baseurl}}/attached_files/images/issue.png)
 
 ### Fork or clone this project
-1. **Fork** the [Courseware as Code Tools Project](https://gitlab.com/e1171/edsigcon-courseware-tools/-/forks/new) project to your group or create your own project and copy all of the contents from it to yours. The project contains the code we need.
+1. **Fork** the <a href="https://gitlab.com/e1171/edsigcon-courseware-tools/-/forks/new" target="_blank">Courseware as Code Tools Project</a> project to your group or create your own project and copy all of the contents from it to yours. The project contains the code we need.
 
 - Remember to choose your newly created namespace.
 

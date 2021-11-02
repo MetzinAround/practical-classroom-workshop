@@ -23,22 +23,22 @@ Rule based API for writing GitLab file hooks
 - Programmatic automated rule-based course creation
 - Automation: Add students to course groups; Add lab helpers to student forks.
 - Compiled and deployed as a file hook on the server
-- [Blog](https://www.macs.hw.ac.uk/~rs46/posts/2020-06-06-gitlab-system-hooks.html): “GitLab Automation with Haskell file hooks”
+- <a href="https://www.macs.hw.ac.uk/~rs46/posts/2020-06-06-gitlab-system-hooks.html" target="_blank">Blog</a>: “GitLab Automation with Haskell file hooks”
 
 
 High level programming API for the GitLab API (gitlab-haskell)
 - For writing GitLab programs
 - For use in an interactive REPL environment
-- API: [here ](https://hackage.haskell.org/package/gitlab-haskell), open source: [here](https://gitlab.com/robstewart57/gitlab-haskell)
+- API: <a href="https://hackage.haskell.org/package/gitlab-haskell" target="_blank">here</a>, open source:   <a href="https://gitlab.com/robstewart57/gitlab-haskell" target="_blank">here</a>.
 
 
 Command line tool for executing batch GitLab operations (gitlab-tools)
 - Generate reports about student projects
 - Identifies students lacking engagement
 - Plagiarism checks using MOSS
-- [Blog](https://www.macs.hw.ac.uk/~rs46/posts/2020-02-01-gitlab-tools.html): “A command line tool for bulk GitLab operations”
-- [Open source ](https://gitlab.com/robstewart57/gitlab-tools)
+- <a href="https://www.macs.hw.ac.uk/~rs46/posts/2020-02-01-gitlab-tools.html" target="_blank">Blog</a>: “A command line tool for bulk GitLab operations”
+- <a href="https://gitlab.com/robstewart57/gitlab-tools" target="_blank">Open source</a>
 
-Read more in the [Heriot-Watt Case Study](https://about.gitlab.com/customers/heriot_watt_university/) and view the GitLab Commit 2021 Presentation [GitLab Users in the Making](https://www.youtube.com/watch?v=1y_RbYqPpDg).
+Read more in the <a href="https://about.gitlab.com/customers/heriot_watt_university/" target="_blank">Heriot-Watt Case Study</a> and view the GitLab Commit 2021 Presentation <a href="https://www.youtube.com/watch?v=1y_RbYqPpDg" target="_blank">GitLab Users in the Making</a>.
 
 [Next Page](https://devops-education.gitlab.io/cwac-workshop/course/create/)

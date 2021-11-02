@@ -6,10 +6,10 @@ parent: Add Content to the Repository
 
 # Adding quizzes
 
-This template allows the creation of quizzes thanks to [quizdown.js](https://github.com/bonartm/quizdown-js).
+This template allows the creation of quizzes thanks to <a href="https://github.com/bonartm/quizdown-js" target="_blank">quizdown.js</a>.
 You'll be able to create single-choice, multiple-choice or sequence ordering quizzes!
 
-We recommend using [Quizdown Live Editor](https://bonartm.github.io/quizdown-live-editor/) for creating the `markdown` for your quiz.
+We recommend using <a href="https://bonartm.github.io/quizdown-live-editor/" target="_blank">Quizdown Live Editor</a> for creating the `markdown` for your quiz.
 
 Let's use their **Multiple Choice** example and change it a little bit.
 
@@ -168,7 +168,7 @@ How can you modify your latest commit message?
 ## More documentation
 
 Wondering what you can and you cannot do with Quizdown?
-Check out their [documentation](https://github.com/bonartm/quizdown-js/blob/main/docs/syntax.md) for each type of quiz!
+Check out their <a href="https://github.com/bonartm/quizdown-js/blob/main/docs/syntax.md" target="_blank">documentation</a> for each type of quiz!
 
 
 [Next Page](https://devops-education.gitlab.io/cwac-workshop/course/adding_slides/)

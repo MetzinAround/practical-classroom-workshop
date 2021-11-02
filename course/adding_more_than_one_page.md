@@ -51,6 +51,6 @@ parent: Add Content to the Repository
 ---
 ```
 
-The [just-the-docs tutorial](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/#pages-with-children) explains more about using parent and children pages!
+The <a href="https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/#pages-with-children" target="_blank">just-the-docs tutorial</a> explains more about using parent and children pages!
 
 [Next Page](https://devops-education.gitlab.io/cwac-workshop/course/links_to_examples/)

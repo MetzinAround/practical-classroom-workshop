@@ -52,6 +52,8 @@ description: <DESCRIPTION OF YOUR COURSE>
 
 After modifying the `_config.yml` file, a Gitlab CI/CD job will automatically launch.
 
+**NOTE. The CICD will only run if your account is verified through a debit or credit card. We are doing this verification to stop crypto mining on our servers. We do not charge the card and we do not store the information anywhere. 
+
 You can see the pipeline running from the main repository page.
 ![pipeline.png]({{site.baseurl}}/attached_files/images/pipeline.png)
 

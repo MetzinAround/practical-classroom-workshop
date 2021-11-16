@@ -6,7 +6,7 @@ description: A GitLab Workshop on Courseware as Code # A short description of yo
 # No need to modify them in most cases
 ###
 baseurl: "/$CI_PROJECT_NAME"
-url: "https://$CI_PROJECT_NAMESPACE.gitlab.io"
+url: ""
 
 # Footer "Edit this page on Gitlab" link text
 gl_edit_repository: "https://gitlab.com/courseware-as-code/courseware-template" # the gitlab URL for your repo

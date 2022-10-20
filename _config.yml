@@ -12,18 +12,19 @@ url: "https://$CI_PROJECT_NAMESPACE.gitlab.io"
 gl_edit_repository: "https://gitlab.com/devops-education/workshops/practical-classroom-workshop" # the gitlab URL for your repo
 gl_edit_link: true # show or hide edit this page link
 gl_edit_link_text: "Contribute to this page using Gitlab"
-gl_edit_repository: "$CI_PROJECT_URL" # the gitlab URL for your repo
 gl_edit_branch: "main" # the branch that your docs is served from
 gl_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/", "attached_files/slides_markdown", "vendor"
-]
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/", "attached_files/slides_markdown", "vendor"]
 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: nil
@@ -94,11 +95,6 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 
 plugins:
   - jekyll-seo-tag
-
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
 
 compress_html:
   clippings: all

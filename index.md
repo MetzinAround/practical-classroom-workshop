@@ -1,19 +1,32 @@
 ---
 title: Home
 nav_order: 1
-description: "Courseware as Code workshop with GitLab"
+description: "Practical Uses of GitLab in the Classroom "
 permalink: /
 ---
 
-# Courseware as Code Workshop
+# Practical Uses of GitLab in the Classroom 
 
-Welcome to the GitLab Courseware as Code Workshop. This workshop will introduce participants to the basics of Courseware as Code and demonstrate how to set up a Courseware as Code repository in [GitLab.com](https://gitlab.com/).
+Welcome to the GitLab Practical Uses of GitLab in the Classroom Workshop.
+
+## Overview 
+This introductory workshop is for faculty members seeking to understand how to introduce DevOps and simple DevOps workflows into their classroom with GitLab. The workshop is relevant to any faculty member that teaches basic coding within a software development framework in disciplines such as Computer Science, Information Systems, and Information Technology.
+
+## Learning Outcomes
+By the conclusion of the workshop, participants will be able to:
+* Describe the evolution of software development from Waterfall to Agile to DevOps 
+* Describe how GitLab the platform relates to DevOps
+* Identify connections between DevOps workflows and standard classroom workflows
+* Structure a typical classroom in GitLab
+* Employ basic GitLab workflows in an example classroom
+* Identify how GitLab can be integrated into curriculum 
+
 
 # Workshop Outline
-1. Introduction to Courseware as Code concepts
-2. Create a free GitLab.com account
-3. Set up the Courseware as Code repository by forking the template
-4. Add basic content to the repository
-5. Set up the Courseware as Code Tools repository
+1. 
+2. 
+3. 
+4. 
+5. 
 
-[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/Introduction/)
+[Next Page](https://devops-education.gitlab.io/workshops/course/Introduction/)

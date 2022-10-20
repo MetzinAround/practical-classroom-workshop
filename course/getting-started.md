@@ -1,5 +1,5 @@
 ---
-title: Create a GitLab.com Account
+title: Getting Started
 nav_order: 3
 ---
 

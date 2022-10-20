@@ -1,84 +1,32 @@
 ---
-title: Overview of Courseware as Code
+title: Introduction to DevOps
 nav_order: 1
 parent: Introduction
 ---
 
-# Introduction to Courseware as Code
-
-**Courseware as Code** (CwaC) is a revolutionary approach to designing, creating, and maintaining course content and all related assets based on a foundation of DevOps and continuous integration (CI) and continuous development (CD) philosophies. CwaC extends the process, tools, and culture of DevOps to designing, creating, and maintaining education content and assets of all types.
+# Introduction to DevOps
 
 **DevOps** is a set of practices and tools that combines software development and information technology operations. DevOps is also a cultural transformation; it improves collaboration between developers and operations team members by implementing a mindset that promotes feedback loops, continuous improvement, and loosely coupled architecture teams.  
 
 
-The DevOps process starts with a problem and moves through each stage starting with the plan stage and moving through in a continuous cycle to the monitor stage and then back to plan. The 7 stages are described in <a href="https://about.gitlab.com/stages-devops-lifecycle/" target="_blank">detail here</a>.
-
-![devops_process]({{site.baseurl}}/attached_files/images/devops_process.png)
-
-A summary of the GitLab tools and functions available in each stage are shown in the figure below.
-
-![stages]({{site.baseurl}}/attached_files/images/stages.png)
-
-## DevOps Stages and Tools used in Courseware as Code
-Courseware as Code is similar to DevOps in that users can adopt and integrate only the tools they need at the time and then expand to more stages and more tools as their needs grows. Since this is an introductory workshop, only a few tools are used. In the <a href="https://devops-education.gitlab.io/cwac-workshop/course/advanced/" target="_blank">Advanced Applications</a> section, we explain more advanced uses.
+The DevOps process starts with a problem and moves through each stage starting with the plan stage and moving through in a continuous cycle to the monitor stage and then back to plan. The 10 stages are described in <a href="https://about.gitlab.com/stages-devops-lifecycle/" target="_blank">detail here</a>.
 
 
-| Stage| Tools and Functions | CwaC Usage | CwaC Tools |
-|------|---------------------|------------|------------|
-| Plan | <a href="https://docs.gitlab.com/ee/user/project/issues/#issues" target="_blank">Issues</a> | Issues store course assignments or tasks.| CwaC tools can make a copy of every issue in a course project and assign it to all course participants. Issues can have due dates, assignees, and milestones. They can also be organized with labels.|
-| Create | <a href="https://docs.gitlab.com/ee/user/project/repository/#repository" target="_blank">Repository</a> | A repository is where you store your code and make changes to it. Your changes are tracked with version control. Each project contains a repository. | CwaC tools can make a separate project for each student in your class. The project contains a private repository where on the enrolled student and instructor can access the code. The repository stores code as submissions to issues (assignments). Git controls the versioning of the code.|
-| Plan, Create, and Verify | <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank">GitLab Pages</a> | GitLab pages is used to publish a static website directly from a repository in GitLab.| CwaC uses GitLab pages to host content for the course in the form of a webage. The content is stored in markdown files in your course's home repository. GitLab CI/CD tools are used to build your site and publish to the GitLab Pages server. |
-| Verify | <a href="https://docs.gitlab.com/ee/ci/index.html" target="_blank">GitLab CI/CD</a> | CI/CD is a tool for software development using the continuous methodologies of Continuous Integration, Continuous Delivery and Continuous Deployment. GitLab CI/CD can automatically build, test, deploy, and monitor applications. | GitLab CI/CD is used to build the course website. CI/CD pipelines can also be configured to check and grade code turned in by students into their central repository.|  
+## Evolution of DevOps
+
+**Waterfall** is a methodology that breaks the software development process into a sequential process that flows like a waterfall through all phases of th project. The term Waterfall as a software development methodology was originally coined in a paper published in 1970 although the origins stem back to the 1950s. In the waterfall method, the testing phase and building phase occur separately. 
+
+**Agile** is an iterative approach to software development that includes discovery and solutions improvement through collaborative efforts. The testing phase is completed in the same iteration and the building or programming phase. The term agile is mentioned in 1970's onward. Agile software development was formally coined in 2001 when the `Manifesto for Agile Software Development` was published. 
+
+[insert something here about a transition]
+
+## The DevOps Platform Era
+Over the last decade DevOps has evolved to become a mature, business critical practice. This blog post, <a href="https://about.gitlab.com/blog/2021/08/03/welcome-to-the-devops-platform-era/" target="_blank">Welcome to the DevOps Platform Era</a>, by Gitlab Founder, Sid Sijbrandij traces the evolution of DevOps through the 4 phases:
+
+* Phase 1 Siloed DevOps
+* Phase 2 Fragmented DevOps
+* Phase 3 DIY DevOps
+* Phase 4 The DevOps Platform Era
 
 
 
-# Courseware as Code Origins
-
-## U.S. Army Cyberschool
-
-The exact origin of CwaC in action is unknown to us. We do know that many open-source projects and open-core companies have used this approach to maintain their documentation and handbook type content for many years.
-
-The U.S. Army Cyberschool, a GitLab customer, officially coined the term Courseware as Code in their publication `Courseware as code setting a new bar for transparency and collaboration` published in the IEEE Frontiers in Education Conference in 2018(1) and subsequent publication in `Courseware as Code: Instituting Agile Courseware Collaboration` in IEEE Security & Privacy in 2020(2.)
-
-According to the authors....
-
->Using a foundation of DevOps and Continuous Integration/Continuous Delivery (CI/CD) philosophies, our idea for Courseware as Code extends the idea of ”Everything as Code” to educational content. Leveraging applicable aspects of the software development lifecycle to courseware facilitates discussions of suggested changes amongst faculty, provides transparency in updates, enables custom workflows based on the complexity of course content, and allows faculty, students, and workforce members to identify issues and contribute content.
-
-In the CwaC model, traditional documents such as slide presentations, word documents, spreadsheets, and other files, are replaced with markup language formats. CI pipelines are used to create PDFs, html5 slide decks, and more for distribution.
-
->These non-binary formats allow for text parsing and comparisons via change logs for review, discussion, and approval. This fine-grained control promotes trust in the integrity of the material and enables instructors to track every content change.
-
-Read more about the Army's Cyberschool's Courseware as Code implementation in this GitLab Case Study: <a href="https://about.gitlab.com/customers/us_army_cyber_school/" target="_blank">How the U.S. Army Cyberschool created Courseware as Code with GitLab</a> .
-
-
-Watch the U.S. Army Cyber School's presentation on <a href="https://www.youtube.com/watch?v=L4zf_QIr4jQ" target="_blank">Courseware as Code at GitLab Commit 2020</a>.
-
-## Google Summer of Code 2021
-
-In the summer of 2021, GitLab was awarded a Google Summer of Code (GsoC) Intern for developing a <a href="https://summerofcode.withgoogle.com/archive/2021/projects/4787041501446144/" target="_blank">Courseware as Code template</a>. Alejandro Rusi, a Master's student in Universidad de Buenos Aires in Buenos Aires, Argentina, accepted and built a template and additional tools. Below is Alejandro's repository with the results.
-
-### Related Resources
-**Repositories and Merge Requests**
-
-- <a href="https://gitlab.com/courseware-as-code/courseware-template" target="_blank">courseware-template</a>: A project for easily setting up your Gitlab Pages, with plugins for easily building educational content (slides, quizzes, and others).
-- <a href="https://gitlab.com/courseware-as-code/courseware-tools" target="_blank">courseware-tools</a>:  A project for sharing coding assignments with your students. Automatically assigns them badges, which can be later be automatically updated using Webhooks.
-- <a href="https://gitlab.com/courseware-as-code/courseware-bot" target="_blank">courseware-bot</a>: A project for handling incoming Webhooks and updating the badges of the students.
-
-**Blog Posts, videos and more**
-
-- <a href="https://alejandro-rusi.gitlab.io/2021/05/31/toward-courseware" target="_blank">Blog post introducing Courseware as code</a>
-- <a href="https://youtu.be/qgQQ4MgnKR4" target="_blank">Techy Tanuki Twitch Video Recording</a> talking with PJ talking about Courseware as Code
-- <a href="https://docs.google.com/presentation/d/1rydx63ZojP6aLdeXfvAX1UOX4lRAP41y_nAp8rdjlZs/edit?usp=sharing" target="_blank">End of project slides</a>
-- <a href="https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit?usp=sharing" target="_blank">Security issue for badges original proposal</a>
-
-**Challenges and future work**
-
-- The main obstacle we had with this project was the security issue that our original proposal had in regards to badges. We originally planned to add an API_TOKEN to each student repository, but that could have disastrous effects if they found out how to use that API TOKEN! More about this in the <a href="https://docs.google.com/presentation/d/11PMVMZbev3_NOZrNbkjgyEjO7EoNqR3uiUrUCMEnhgk/edit#slide=id.p" target="_blank">slides</a>.
-
-- Currently Courseware as Code still requires some technical knowledge to spin it up: modify some config files, wait for the CI/CD pipeline to run, change the name of the repository, etc, etc. Maybe a script could be made to automate this even more, even better if it has an UI!
-
-[Next Section](https://devops-education.gitlab.io/cwac-workshop/course/benefits/)
-
-# Footnotes
-1. Rodriguez, Julianna, et al. "Courseware as code setting a new bar for transparency and collaboration." 2018 IEEE Frontiers in Education Conference (FIE). IEEE, 2018.
-2. Rodriguez, Julianna M., et al. "Courseware as Code: Instituting Agile Courseware Collaboration." IEEE Security & Privacy 18.6 (2020): 59-62.

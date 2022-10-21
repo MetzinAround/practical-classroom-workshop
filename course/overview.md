@@ -1,6 +1,7 @@
 ---
-title: Introduction to DevOps
-nav_order: 3
+title: Introduction 
+nav_order: 2
+has_children: true
 ---
 
 # Introduction to DevOps

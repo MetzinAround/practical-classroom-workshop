@@ -1,7 +1,6 @@
 ---
 title: Introduction to GitLab
-nav_order: 2
-parent: Introduction
+nav_order: 4
 ---
 
 ## GitLab 

@@ -1,7 +1,6 @@
 ---
 title: Introduction to DevOps
 nav_order: 3
-parent: Introduction
 ---
 
 # Introduction to DevOps

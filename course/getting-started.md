@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-nav_order: 3
+nav_order: 2
 ---
 
 # Sign up for a GitLab.com account
@@ -15,4 +15,4 @@ Please note, GitLab requires validation using a credit or debit card in order to
 2. Click on Register now or Sign in with an existing account.
 3. Log into your account.
 
-[Next Page](https://devops-education.gitlab.io/cwac-workshop/course/setup/)
+[Next Page]()

@@ -5,7 +5,7 @@ description: A GitLab Workshop on how GitLab can be used in the classroom # A sh
 # Deployment and template variables below
 # No need to modify them in most cases
 ###
-baseurl: "/$CI_PROJECT_NAME"
+baseurl: "/workshops/practical-classroom-workshop"
 url: "https://$CI_PROJECT_NAMESPACE.gitlab.io"
 
 # Footer "Edit this page on Gitlab" link text

@@ -1,7 +1,7 @@
 ---
 title: GitLab Setup
 nav_order: 1
-Parent: Workshop Instructions 
+parent: Workshop Instructions 
 ---
 
 # GitLab Classroom Set up 

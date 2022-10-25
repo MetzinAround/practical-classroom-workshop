@@ -9,6 +9,7 @@ parent: Workshop Instructions
 Pre-requisites:
 - You must have a GitLab.com account set up 
 - You must have GitPod enabled
+- {note to self - we may need to enable runners here with cc}
 
 ## Steps
 
@@ -47,7 +48,7 @@ In this assignment you will learn how to create a Magic 8 Ball game in Python. T
 - Use Git to commit the code to your repository 
 - Connect your repository to GitPod
 - Run the Magic 8 Ball ame
-- Change a variable in the code 
+- Modify the code 
 - Use Git to commit the code to your repository 
 - Share your code with a classmate 
 - Run a classmates code 
@@ -69,14 +70,27 @@ In this assignment you will learn how to create a Magic 8 Ball game in Python. T
 ## Connect your repository to GitPod 
 1. From the file in the repository, pull the Open in WebIDE menu down and open the file in GitPod
 1. GitPod will open, continue with GitLab 
-1. Choose the editor of your preference for opening workspaces - for this example we'll use VS Code Browser
-1. VS Code will open in your browser inside GitPod
-1. Install the recommended extensions for Python by clicking install
-1. The Python extension for Visual Studio Code will install. 
+1. Choose the editor of your preference for opening workspaces - for this example we'll use VS Code Browser.
+1. VS Code will open in your browser inside GitPod.
+1. Install the recommended extensions for Python by clicking install.
+1. The Python extension for Visual Studio Code will install.
 1. You can close the Get Started Tabs. 
 
 ## Run the Magic 8 Ball python code in GitPod
-1. 
+1. Run the magic_8ball.py code in your GitPod browser `run magic_8ball.py`
+1. Play the Magic 8 Ball game by answering it's questions. 
+
+
+## Modify the code and commit the code to a new branch
+1. Create a new branch to comit your changes. Click on main from the bottom menu, then create a new branch. Name it `python-example-initials. 
+1. Change one of the answers. 
+1. Save the file.
+1. In the source control tab, click the + sign to stage the change. 
+1. Click commit, type a commit message. Then click enter
+1. Send the changes to the repo by clicking the sync changes button. The changes will be sent to the repository. 
+1. Back in GitLab, you'll see a banner with the option to create a merge request. Click the button and fill out the M
+
+
 
 
 ### Sample Magic 8 Ball Game Code 

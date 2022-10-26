@@ -30,13 +30,16 @@ Pre-requisites:
 1. Name the project `Module 1`
 1. Accept the defaults
 
-Note: The automatic readme has instructions on how to get started.   
+Note: A readme file is automatically created with some basic instructions on how to use a GitLab project. 
 
 [Create an issue](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#create-an-issue) for the assignment
 1. Click on Issues
 1. New Issue
 1. Add a title `Module 1: Magic 8 Ball Python Assignment `
-1. Add a description. Use the example below. 
+1. Add a description and step by step directions for each learning objective. Use the example below. 
+
+Complete the assignment
+1. Work through the example issue as if you were a student in your class. 
 
 ------
 ## Overview 
@@ -49,7 +52,7 @@ In this assignment you will learn how to create a Magic 8 Ball game in Python. T
 - Connect your repository to GitPod
 - Run the Magic 8 Ball ame
 - Modify the code 
-- Use Git to commit the code to your repository 
+- Use Git to commit the code to your repository in both GitPod and the WebIDE
 - Share your code with a classmate 
 - Run a classmates code 
 
@@ -82,20 +85,32 @@ In this assignment you will learn how to create a Magic 8 Ball game in Python. T
 
 
 ## Modify the code and commit the code to a new branch
-1. Create a new branch to comit your changes. Click on main from the bottom menu, then create a new branch. Name it `python-example-initials. 
+1. Create a new branch to commit your changes. Click on main from the bottom menu, then create a new branch. Name it `python-example-initials. 
 1. Change one of the answers. 
 1. Save the file.
 1. In the source control tab, click the + sign to stage the change. 
 1. Click commit, type a commit message. Then click enter
 1. Send the changes to the repo by clicking the sync changes button. The changes will be sent to the repository. 
-1. Back in GitLab, you'll see a banner with the option to create a merge request. Click the button and fill out the M
+1. Back in GitLab, you'll see a banner with the option to [create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html). Click the button and fill out the Merge request. You can accept most of the defaults. 
+1. Click the `Merge` button on the MR to merge the changes from your branch into the main branch. 
+1. Back in GitPod, we'll need to update our main branch to reflect the changes we merged. Switch back to the main branch. 
+1. Click the synchronize changes button on the bottom menu to pull the changes to our main branch. 
 
 
+## Share your code with a classmate and make an MR to a classmate's python file. 
+1. In GitLab, from your Example Class\Module 1 project , go to Project Information and Members. Invite one of your classmates to the Project with the Developer Role. [Learn more about roles](https://docs.gitlab.com/ee/user/permissions.html). 
+1. You should also have been added to a classmates Project. The Group and Project  will appear in your lists of Projects. 
+1. Navigate to the shared Project. 
+1. Open the file the classmate's magic_8ball.py file in WebIDE. 
+1. Edit one of the answers. 
+1. Use the WebIDE to Commit the change on a new branch (accept the defaults). Type a commit message, create a new merge request, and commit the change. 
+1. Fill out the Merge Request with some details. Assign it back to your classmate. 
+1. You should have a merge request assigned to you as well. Review the changes and merge. 
 
 
 ### Sample Magic 8 Ball Game Code 
 
-`
+
 import random
 import time
 #REMOVE ME
@@ -159,7 +174,7 @@ def play_again(user_answer):
 if __name__ == "__main__":
     ask_the_ball()
 
-`
+
 
 
 

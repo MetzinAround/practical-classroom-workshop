@@ -112,5 +112,3 @@ In this assignment, you will learn how to create a Magic 8 Ball game in Python. 
 [ ] Add a screen shot of the results of the Magic 8 ball game as a comment in the issue. 
 
 
-### Sample Magic 8 Ball Game Code 
-[sample_code.txt](https://gitlab.com/devops-education/workshops/practical-classroom-workshop/-/blob/main/sample_code.txt)

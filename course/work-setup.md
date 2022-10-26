@@ -36,7 +36,7 @@ Note: A readme file is automatically created with some basic instructions on how
 1. Click on Issues
 1. New Issue
 1. Add a title `Module 1: Magic 8 Ball Python Assignment `
-1. Add a description and step by step directions for each learning objective. Use the example below. 
+1. Add a description and step by step directions for each learning objective. Use the example text below and [this issue](https://gitlab.com/devops-education/workshops/practical-classroom-workshop/-/issues/1). 
 
 Complete the assignment
 1. Work through the example issue as if you were a student in your class. 
@@ -44,7 +44,7 @@ Complete the assignment
 ------
 ## Overview 
 
-In this assignment you will learn how to create a Magic 8 Ball game in Python. The learning outcomes are:
+In this assignment, you will learn how to create a Magic 8 Ball game in Python. The learning outcomes are:
 
 - Create a python file in a GitLab repository
 - Compose a basic python script for a Magic 8 Ball Game in your python file
@@ -54,7 +54,7 @@ In this assignment you will learn how to create a Magic 8 Ball game in Python. T
 - Modify the code 
 - Use Git to commit the code to your repository in both GitPod and the WebIDE
 - Share your code with a classmate 
-- Run a classmates code 
+- Run a classmate's code 
 
 
 ##  Create a python file in a GitLab repository
@@ -89,7 +89,7 @@ In this assignment you will learn how to create a Magic 8 Ball game in Python. T
 1. Change one of the answers. 
 1. Save the file.
 1. In the source control tab, click the + sign to stage the change. 
-1. Click commit, type a commit message. Then click enter
+1. Click commit, and type a commit message. Then click enter
 1. Send the changes to the repo by clicking the sync changes button. The changes will be sent to the repository. 
 1. Back in GitLab, you'll see a banner with the option to [create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html). Click the button and fill out the Merge request. You can accept most of the defaults. 
 1. Click the `Merge` button on the MR to merge the changes from your branch into the main branch. 
@@ -98,8 +98,8 @@ In this assignment you will learn how to create a Magic 8 Ball game in Python. T
 
 
 ## Share your code with a classmate and make an MR to a classmate's python file. 
-1. In GitLab, from your Example Class\Module 1 project , go to Project Information and Members. Invite one of your classmates to the Project with the Developer Role. [Learn more about roles](https://docs.gitlab.com/ee/user/permissions.html). 
-1. You should also have been added to a classmates Project. The Group and Project  will appear in your lists of Projects. 
+1. In GitLab, from your Example Class\Module 1 project, go to Project Information and Members. Invite one of your classmates to the Project with the Developer Role. [Learn more about roles](https://docs.gitlab.com/ee/user/permissions.html). 
+1. You should also have been added to a classmate's Project. The Group and Project will appear in your lists of Projects. 
 1. Navigate to the shared Project. 
 1. Open the file the classmate's magic_8ball.py file in WebIDE. 
 1. Edit one of the answers. 
@@ -107,80 +107,10 @@ In this assignment you will learn how to create a Magic 8 Ball game in Python. T
 1. Fill out the Merge Request with some details. Assign it back to your classmate. 
 1. You should have a merge request assigned to you as well. Review the changes and merge. 
 
+## Artifacts
+[ ] Link both MRs to this issue
+[ ] Add a screen shot of the results of the Magic 8 ball game as a comment in the issue. 
+
 
 ### Sample Magic 8 Ball Game Code 
-
-
-import random
-import time
-#REMOVE ME
-#This section creates a list of all the possible replies and prints out an ASCII 8ball with a pause between each line. This is to indicate that the code has started running. 
-answers = ["It is certain", "It is decidedly so", "Without a doubt", "Yes Definitely", "You may rely on it", "As I see it, yes", "Most Likely", "Outlook good", "Yes", "Signs point to yes", "Reply hazy, try again", "Ask again later", "Better not tell you now", "Cannot Predict now", "Concentrate and ask again", "Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very Doubtful"]
-print("  .-'''-.")
-time.sleep(.5)
-print(" /   _   \\")
-time.sleep(.5)
-print(" |  (8)  |")
-time.sleep(.5)
-print(" \   ^   /")
-time.sleep(.5)
-print("  '-...-'")
-
-#The main function of the 8ball. 
-def ask_the_ball():
-    #asks the user to input a name and questions. .upper() turns the string into all caps. 
-    name = input("What is your name?")
-    #capitalizes the name
-    cap_name = name.upper()
-    question = input("What would you like an answer to?")
-    cap_question = question.upper()
-    #This uses random to create a random integer between two numbers, in this case 0 and the length of the list minus 1 to account for 0 indexing. 
-    get_the_i = random.randint(0, len(answers)-1)
-    #this selectes the answer by using the random number as the index from the list
-    answer = answers[get_the_i]
-
-    #fun filler to pretend like it's thinking
-    print(f"{cap_name}, you asked {cap_question}.")
-    print("Pondering the Orb")
-    time.sleep(random.randint(1, 5))
-    print("🔮 ✨ 🔮")
-    time.sleep(1)
-    print(f"{answer}")
-    ask_again = input("Would you like to ask again? yes/no ")
-    #runs play again to check if user wants another round
-    play_again(ask_again)
-
-#if the user answers something other than yes or no, this frunction runs with a new input
-def wrong_answer(user_answer2):
-    play_again(user_answer2)
-
-#play again is the logic for deciding how the player answered about another question
-def play_again(user_answer):
-    #upper case to account for random capitalization
-    more = user_answer.upper()
-    #if yes, runs ask_the_ball again
-    if more == "YES":
-        ask_the_ball()
-    #exits program
-    elif more == "NO":
-        print("Thank you for playing.")
-        exit()
-    #any answer other than yes or no reminds the user to use an approved answer 
-    else:
-        wrong = input("Please type 'yes' or 'no'. ")
-        wrong_answer(wrong)
-        
-#runs the game function    
-if __name__ == "__main__":
-    ask_the_ball()
-
-
-
-
-
-
-
-
-
-
-
+[sample_code.txt](https://gitlab.com/devops-education/workshops/practical-classroom-workshop/-/blob/main/sample_code.txt)

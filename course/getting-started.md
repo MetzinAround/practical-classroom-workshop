@@ -30,4 +30,4 @@ In order to open a GitLab project in GitPod, you need to enable it.
 
 
 
-[Next Page]()
+[Next Page](https://devops-education.gitlab.io//workshops/practical-classroom-workshop/course/workshop/)

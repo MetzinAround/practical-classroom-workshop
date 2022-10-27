@@ -29,4 +29,4 @@ By the conclusion of the workshop, participants will be able to:
 4. 
 5. 
 
-[Next Page](https://devops-education.gitlab.io/workshops/course/Introduction/)
+[Next Page](https://devops-education.gitlab.io//workshops/practical-classroom-workshop/course/overview/)

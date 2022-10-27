@@ -28,5 +28,5 @@ Over the last decade DevOps has evolved to become a mature, business critical pr
 * Phase 3 DIY DevOps
 * Phase 4 The DevOps Platform Era
 
-
+[Next Page](https://devops-education.gitlab.io//workshops/practical-classroom-workshop/course/gitlab/)
 

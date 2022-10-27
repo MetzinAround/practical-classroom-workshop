@@ -25,3 +25,4 @@ In this section you will:
 1. Learn worktflow for inviting students to the course project
 
 
+[Next Page](https://devops-education.gitlab.io//workshops/practical-classroom-workshop/course/work-setup/)

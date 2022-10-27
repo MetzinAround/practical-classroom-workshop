@@ -5,4 +5,6 @@ parent: Introduction
 ---
 
 ## GitLab 
+🚧 Under Construction 🚧
 
+[Next Page](https://devops-education.gitlab.io//workshops/practical-classroom-workshop/course/getting-started/)

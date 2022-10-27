@@ -1,5 +1,5 @@
 ---
-title: GitLab Setup
+title: Magic 8-ball Assignment
 nav_order: 1
 parent: Workshop Instructions 
 ---

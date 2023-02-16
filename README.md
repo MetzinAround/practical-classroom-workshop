@@ -1,4 +1,3 @@
-# Courseware as Code Workshop 
-This repository stores content for GitLab's Courseware as Code Workshop. 
+# Practical Classroom Workshop
 
-`WORK IN PROGRESS: MORE COMING SOON`
+This repo contains the static site for the workshop "Practical GitLab usage in the Classroom". The link is available in the description. 
